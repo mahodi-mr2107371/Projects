@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo-calc.png"/>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<body>
+    <header>
+        <div id="casio">CASIO</div> 
+        <div id="fx">fx-350ES Plus</div>
+        <div id="natural">natural V.P.A.M</div>
+    </header>
+    <div id="display">
+        <div class="disp"></div>
+        <div class="disp" id="input"></div>
+        <div class="disp" id="output"></div>
+    </div>
+    <main>
+        <div class="inBtn" onclick='clicked(7)'>7</div>
+        <div class="inBtn" onclick='clicked(8)'>8</div>
+        <div class="inBtn" onclick='clicked(9)'>9</div>
+        <div class="inBtn" onclick="clicked('DEL')">DEL</div>
+        <div class="inBtn" onclick="clicked('AC')">AC</div>
+        <div class="inBtn" onclick='clicked(4)'>4</div>
+        <div class="inBtn" onclick='clicked(5)'>5</div>
+        <div class="inBtn" onclick='clicked(6)'>6</div>
+        <div class="inBtn" onclick='clicked("x")'>x</div>
+        <div class="inBtn" onclick="clicked('/')">/</div>
+        <div class="inBtn" onclick='clicked(1)'>1</div>
+        <div class="inBtn" onclick='clicked(2)'>2</div>
+        <div class="inBtn" onclick='clicked(3)'>3</div>
+        <div class="inBtn" onclick="clicked('+')">+</div>
+        <div class="inBtn" onclick="clicked('-')">-</div>
+        <div class="inBtn" onclick='clicked(0)'>0</div>
+        <div class="inBtn" onclick='clicked(".")'>.</div>
+        <div class="inBtn" onclick='clicked("x10")'>x10</div>
+        <div class="inBtn" onclick="clicked('ANS')">ANS</div>
+        <div class="inBtn" onclick="clicked('=')">=</div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

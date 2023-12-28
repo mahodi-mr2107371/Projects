@@ -1,0 +1,104 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 25px;
+    border: 0px;
+}
+html{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    height: 95%;
+    width: 95%;
+    border:none;
+}
+body{
+    box-shadow: -8px 7px 8px 7px rgb(110, 108, 110);
+    background-color: rgb(43, 41, 41);
+    color: white;
+    border-radius: 25px;
+    height: fit-content;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    border-radius: 25px;
+    height: 10%;
+    width: 97%;
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "cisco fx"
+        "natural natural"
+    ;
+}
+#natural{
+    width: 193%;
+    font-weight: bold;
+    font-size: 25px;
+    color: brown;
+    text-align: center;
+}
+#casio{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+    
+}
+#fx{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: end;
+}
+#display{
+    background-color: rgb(174, 181, 179);
+    color: rgb(70, 24, 24);
+    padding: 0px;
+    width: 193%;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.disp{
+    border: 1px solid black;
+    font-size: 25px;
+    border-radius: 0px;
+    margin: 0px;
+    width: 193%;
+}
+#output{
+    text-align: right;
+}
+main{
+    width: 193%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 300px;
+    align-items: center;
+    justify-items: center;
+}
+.inBtn{
+    user-select: none;
+    text-align: center;
+    font-size: 25px;
+    height: 35px;
+    width: 50px;
+    border-radius: 40%;
+}
+.inBtn:hover {
+    background-color: aqua;
+    box-shadow: 1px 1px 8px 7px rgba(204,145,204,1);
+    color: black;
+}
+
+
+
