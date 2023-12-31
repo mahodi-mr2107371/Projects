@@ -1,43 +1,60 @@
-function clicked(num){
-    let str = document.getElementById('input').innerText;
-    let chars = str.split("");
-    let prev = "";
-    let next = "";
-    let op = "";
-    if(str.length<41){
-        switch(num){
-            case "AC": document.getElementById('input').innerHTML = "";
-            break;
-            case "DEL": chars.pop(); let str1= chars.join(""); document.getElementById('input').innerHTML = str1;
-            break;
-            case "ANS": document.getElementById('input').innerHTML = prev;
-            break;
-            case "+": prev = document.getElementById('input').innerText; op = "+";document.getElementById('input').innerHTML="";
-            break;
-            case "-": prev = document.getElementById('input').innerText; op = "-";document.getElementById('input').innerHTML="";
-            break;
-            case "*": prev = document.getElementById('input').innerText; op = "*";document.getElementById('input').innerHTML="";
-            break;
-            case "/": prev = document.getElementById('input').innerText; op = "/";document.getElementById('input').innerHTML="";
-            break;
-            case "=": next = document.getElementById('input').innerText; 
-            switch(op){
-                case "*":document.getElementById('input').innerHTML = prev.concat(op).concat(next);document.getElementById('output').innerHTML = prev*next;
-                break;
-                case "+":document.getElementById('input').innerHTML = prev.concat(op).concat(next);document.getElementById('output').innerHTML = prev+next;
-                break;
-                case "-":document.getElementById('input').innerHTML = prev.concat(op).concat(next);document.getElementById('output').innerHTML = prev-next;
-                break;
-                case "/":document.getElementById('input').innerHTML = prev.concat(op).concat(next);document.getElementById('output').innerHTML = prev/next;
-                break;
-            }
-            ;
-            break;
-            default:document.getElementById('input').innerHTML = document.getElementById('input').innerText.concat(num);
-            break;
-        }
+let operator = "";
+let ans = 0;
+function clicked(btnVar){
+    switch(btnVar){
+        case "AC":document.getElementById("input").innerHTML=""; document.getElementById("output").innerHTML="";
+        break;
+        case "DEL":let cr = document.getElementById("input").innerText.split("");cr.pop();document.getElementById("input").innerHTML =cr.join("") ;
+        break;
+        case ".": document.getElementById('input').innerHTML = document.getElementById('input').innerText.concat(".");
+        break;
+        case "x": document.getElementById('input').innerHTML = document.getElementById('input').innerText.concat("x");
+        break;
+        case "/": document.getElementById('input').innerHTML = document.getElementById('input').innerText.concat("/");
+        break;
+        case "+": document.getElementById('input').innerHTML = document.getElementById('input').innerText.concat("+");
+        break;
+        case "-": document.getElementById('input').innerHTML = document.getElementById('input').innerText.concat("-");
+        break;
+        case "x10": document.getElementById('input').innerHTML = document.getElementById('input').innerText.concat("x10");
+        break;
+        case "=":if(seperator()!==0){document.getElementById('output').innerHTML = cal(seperator()[0],seperator()[1],operator);}else if(seperator()===1){document.getElementById("output").innerHTML = ans;}else{document.getElementById('output').innerHTML = document.getElementById('input').innerText};ans= document.getElementById('output').innerText;
+        break;
+        case "ANS": document.getElementById("input").innerHTML = document.getElementById("input").innerText.concat("ANS") ;
+        break;
+        default: document.getElementById('input').innerHTML = document.getElementById('input').innerText.concat(btnVar);
+        break;
+    }
+}
+function seperator(){
+    if(document.getElementById('input').innerText.includes("+")){
+        operator = "+";
+        return document.getElementById('input').innerText.split("+");
+    }
+    else if(document.getElementById('input').innerText.includes("-")){
+        operator = "-";
+        return document.getElementById('input').innerText.split("-");
+    }
+    else if(document.getElementById('input').innerText.includes("/")){
+        operator = "/";
+        return document.getElementById('input').innerText.split("/");
+    }
+    else if(document.getElementById('input').innerText.includes("x")){
+        operator = "x";
+        return document.getElementById('input').innerText.split("x");
+    }
+    else if(document.getElementById("input").innerText == "ANS"){
+        return 1;
     }
     else{
-         
+        return 0;
+    }
+}
+function cal(val1,val2,op){
+    switch(op){
+        case "x": return (val1*1) * (val2*1);
+        case "/": return (val1*1) / (val2*1);
+        case "+": return (val1*1) + (val2*1);
+        case "-": return (val1*1) - (val2*1);
     }
 }

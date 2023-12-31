@@ -73,6 +73,7 @@ header{
     border-radius: 0px;
     margin: 0px;
     width: 193%;
+    display: flex;
 }
 #output{
     text-align: right;
