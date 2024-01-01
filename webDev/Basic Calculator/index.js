@@ -1,10 +1,3 @@
-let operator = {
-    "/":[],
-    "x":[],
-    "+":[],
-    "-":[]
-};
-let values = [];
 let ans = 0;
 function clicked(btnVar){
     switch(btnVar){
