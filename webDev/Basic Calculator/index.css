@@ -3,6 +3,7 @@
     padding: 5px;
     border-radius: 25px;
     border: 0px;
+    transition: 0.35s;
 }
 html{
     display: flex;
@@ -68,15 +69,20 @@ header{
     border-radius: 10px;
 }
 .disp{
-    border: 1px solid black;
     font-size: 25px;
     border-radius: 0px;
     margin: 0px;
     width: 193%;
     display: flex;
 }
+#input{
+    user-select: none;
+    padding: 0px;
+}
 #output{
-    text-align: right;
+    display: flex;
+    justify-content: right;
+    padding: 0px;
 }
 main{
     width: 193%;
@@ -96,10 +102,8 @@ main{
     border-radius: 40%;
 }
 .inBtn:hover {
-    background-color: aqua;
-    box-shadow: 1px 1px 8px 7px rgba(204,145,204,1);
+    background-color: rgb(134, 23, 148);
+    box-shadow: 1px 1px 8px 7px rgb(230, 68, 216);
     color: black;
 }
-
-
 
