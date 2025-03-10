@@ -1,0 +1,557 @@
+WHO region,ITZ,COUNTRY/AREA/TERRITORY,COUNTRY_CODE,ORIGIN_SOURCE,ISO_YEAR,ISO_WEEK,DATE,SPEC_RECEIVED_NB,SPEC_PROCESSED_NB,AH1,AH1N12009,AH3,AH5,ANOTSUBTYPED,INF_A,BVIC,BYAM,BNOTDETERMINED,INF_B,INF_ALL,INF_NEGATIVE,ILI_ACTIVITY
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,17,2022-04-24,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,18,2022-05-01,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,19,2022-05-08,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,20,2022-05-15,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,21,2022-05-22,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,22,2022-05-29,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,23,2022-06-05,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,24,2022-06-12,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,25,2022-06-19,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,26,2022-06-26,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,27,2022-07-03,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,28,2022-07-10,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,29,2022-07-17,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,30,2022-07-24,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,31,2022-07-31,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,32,2022-08-07,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,33,2022-08-14,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,34,2022-08-21,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,35,2022-08-28,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,36,2022-09-04,1,1,,0,0,0,0,,,0,0,,,1,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,37,2022-09-11,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,38,2022-09-18,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,39,2022-09-25,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,40,2022-10-02,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,41,2022-10-09,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,42,2022-10-16,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,43,2022-10-23,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,44,2022-10-30,3,3,,0,0,0,0,,1,0,0,1,1,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,45,2022-11-06,29,29,,0,5,0,0,5,3,0,0,3,8,21,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,46,2022-11-13,21,21,,1,0,0,0,1,4,0,0,4,5,17,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,47,2022-11-20,24,24,,0,7,0,0,7,1,0,0,1,8,16,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,48,2022-11-27,116,116,,1,11,0,0,12,32,0,0,32,44,72,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,49,2022-12-04,41,41,,0,8,0,0,8,4,0,0,4,12,30,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,50,2022-12-11,50,50,,3,7,0,0,10,6,0,0,6,16,34,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,51,2022-12-18,45,45,,0,1,0,0,1,3,0,0,3,4,41,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2022,52,2022-12-25,34,34,,0,1,0,0,1,1,0,0,1,2,32,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,1,2023-01-01,42,42,,1,4,0,0,5,1,0,0,1,6,36,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,2,2023-01-08,49,49,,1,1,0,0,2,2,0,0,2,4,45,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,3,2023-01-15,13,13,,1,0,0,0,1,,0,0,,1,12,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,4,2023-01-22,17,17,,1,0,0,0,1,1,0,0,1,2,15,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,5,2023-01-29,8,8,,2,0,0,0,2,,0,0,,2,6,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,6,2023-02-05,15,15,,1,0,0,0,1,1,0,0,1,2,13,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,7,2023-02-12,16,16,,2,1,0,0,3,,0,0,,3,13,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,8,2023-02-19,12,12,,3,0,0,0,3,,0,0,,3,9,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,9,2023-02-26,14,14,,4,0,0,0,4,,0,0,,4,10,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,10,2023-03-05,17,17,,4,0,0,0,4,,0,0,,4,13,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,11,2023-03-12,16,16,,2,0,0,0,2,,0,0,,2,14,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,12,2023-03-19,30,30,,3,0,0,0,3,,0,0,,3,27,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,13,2023-03-26,12,12,,0,0,0,0,,,0,0,,,12,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,14,2023-04-02,38,38,,1,0,0,0,1,,0,0,,1,37,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,15,2023-04-09,15,15,,1,0,0,0,1,,0,0,,1,14,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,16,2023-04-16,19,19,,1,0,0,0,1,,0,0,,1,18,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,17,2023-04-23,18,18,,0,0,0,0,,,0,0,,,18,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,18,2023-04-30,4,4,,0,0,0,0,,,0,0,,,4,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,19,2023-05-07,5,5,,0,0,0,0,,,0,0,,,5,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,20,2023-05-14,1,1,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,21,2023-05-21,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,22,2023-05-28,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,23,2023-06-04,1,1,,0,0,0,0,,,0,0,,,1,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,24,2023-06-11,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,25,2023-06-18,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,26,2023-06-25,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,27,2023-07-02,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,28,2023-07-09,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,29,2023-07-16,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,30,2023-07-23,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,31,2023-07-30,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,32,2023-08-06,2,2,,0,0,0,0,,,0,0,,,2,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,33,2023-08-13,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,34,2023-08-20,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,35,2023-08-27,1,1,,0,0,0,0,,,0,0,,,1,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,36,2023-09-03,1,1,,0,0,0,0,,,0,0,,,1,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,37,2023-09-10,1,1,,0,0,0,0,,,0,0,,,1,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,38,2023-09-17,8,8,,0,0,0,0,,,0,0,,,8,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,39,2023-09-24,21,21,,0,0,0,0,,,0,0,,,21,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,40,2023-10-01,19,19,,0,0,0,0,,,0,0,,,19,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,41,2023-10-08,16,16,,0,0,0,0,,,0,0,,,16,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,42,2023-10-15,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,43,2023-10-22,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,44,2023-10-29,23,1,,0,0,0,0,,,0,0,,,1,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,45,2023-11-05,31,31,,0,0,0,0,,,0,0,,,31,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,46,2023-11-12,138,138,,7,1,0,0,8,,0,0,,8,130,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,47,2023-11-19,100,100,,2,0,0,0,2,2,0,0,2,4,96,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,48,2023-11-26,123,123,,10,1,0,0,11,,0,0,,11,112,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,49,2023-12-03,101,101,,15,3,0,0,18,,0,0,,18,83,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,50,2023-12-10,153,153,,47,2,0,0,49,,0,0,,49,104,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,51,2023-12-17,175,175,,74,6,0,0,80,,0,0,,80,95,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2023,52,2023-12-24,201,201,,85,5,0,0,90,,0,0,,90,111,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2024,1,2023-12-31,192,192,,80,2,0,0,82,,0,0,,82,110,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2024,2,2024-01-07,290,290,,107,7,0,0,114,,0,0,,114,176,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2024,3,2024-01-14,193,193,,48,7,0,0,55,,0,0,,55,138,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2024,4,2024-01-21,160,160,,33,7,0,0,40,,0,0,,40,120,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2024,5,2024-01-28,146,146,,21,1,0,0,22,,0,0,,22,124,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2024,6,2024-02-04,141,141,,16,8,0,0,24,,0,0,,24,117,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2024,7,2024-02-11,122,122,,11,9,0,0,20,,0,0,,20,102,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2024,8,2024-02-18,109,109,,6,15,0,0,21,,0,0,,21,88,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2024,9,2024-02-25,109,109,,4,6,0,0,10,,0,0,,10,99,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2024,10,2024-03-03,74,74,,2,2,0,0,4,,0,0,,4,70,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2024,11,2024-03-10,63,63,,1,0,0,0,1,,0,0,,1,62,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2024,12,2024-03-17,60,60,,1,4,0,0,5,,0,0,,5,55,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2024,13,2024-03-24,48,48,,1,2,0,0,3,,0,0,,3,45,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2024,14,2024-03-31,42,42,,0,1,0,0,1,,0,0,,1,41,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2024,15,2024-04-07,22,22,,0,0,0,0,,1,0,0,1,1,21,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2024,16,2024-04-14,37,37,,0,2,0,0,2,,0,0,,2,35,1
+AFR,Northern Africa,Algeria,DZA,NOTDEFINED,2024,17,2024-04-21,39,39,,0,0,0,0,,,0,0,,,39,1
+AFR,Middle Africa,Angola,AGO,SENTINEL,2023,22,2023-05-28,4,3,,2,1,0,0,3,,0,0,,3,0,1
+AFR,Middle Africa,Angola,AGO,SENTINEL,2023,26,2023-06-25,6,6,,1,1,0,0,2,,0,0,,2,4,1
+AFR,Middle Africa,Angola,AGO,SENTINEL,2023,27,2023-07-02,47,47,,2,2,0,0,4,,0,0,,4,43,1
+AFR,Middle Africa,Angola,AGO,SENTINEL,2023,28,2023-07-09,23,23,,0,0,0,0,,,0,0,,,23,1
+AFR,Middle Africa,Angola,AGO,SENTINEL,2023,29,2023-07-16,2,2,,0,0,0,,,,0,0,,,2,1
+AFR,Middle Africa,Angola,AGO,SENTINEL,2023,30,2023-07-23,2,2,,0,0,0,,,,0,0,,,2,1
+AFR,Middle Africa,Angola,AGO,SENTINEL,2023,32,2023-08-06,1,1,,0,0,0,0,,,0,1,1,1,0,1
+AFR,Middle Africa,Angola,AGO,SENTINEL,2023,34,2023-08-20,1,1,,0,0,0,0,,,0,0,,,1,1
+AFR,Middle Africa,Angola,AGO,SENTINEL,2023,38,2023-09-17,1,1,,0,0,0,0,,,0,0,,,1,1
+AFR,Middle Africa,Angola,AGO,SENTINEL,2023,39,2023-09-24,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Middle Africa,Angola,AGO,SENTINEL,2023,40,2023-10-01,0,0,,0,0,0,0,,,0,0,,,0,1
+AFR,Middle Africa,Angola,AGO,SENTINEL,2023,41,2023-10-08,16,16,,0,0,0,0,,,0,0,,,16,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,17,2022-04-24,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,18,2022-05-01,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,19,2022-05-08,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,20,2022-05-15,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,21,2022-05-22,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,22,2022-05-29,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,23,2022-06-05,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,24,2022-06-12,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,25,2022-06-19,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,26,2022-06-26,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,27,2022-07-03,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,28,2022-07-10,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,29,2022-07-17,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,30,2022-07-24,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,31,2022-07-31,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,32,2022-08-07,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,33,2022-08-14,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,34,2022-08-21,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,35,2022-08-28,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,36,2022-09-04,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,37,2022-09-11,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,38,2022-09-18,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,39,2022-09-25,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,40,2022-10-02,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,41,2022-10-09,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,42,2022-10-16,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,43,2022-10-23,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,44,2022-10-30,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,45,2022-11-06,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,46,2022-11-13,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,47,2022-11-20,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,48,2022-11-27,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,49,2022-12-04,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,50,2022-12-11,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,51,2022-12-18,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2022,52,2022-12-25,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,1,2023-01-01,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,2,2023-01-08,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,3,2023-01-15,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,4,2023-01-22,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,5,2023-01-29,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,6,2023-02-05,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,7,2023-02-12,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,8,2023-02-19,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,9,2023-02-26,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,10,2023-03-05,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,11,2023-03-12,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,12,2023-03-19,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,13,2023-03-26,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,14,2023-04-02,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,15,2023-04-09,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,16,2023-04-16,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,17,2023-04-23,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,18,2023-04-30,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,19,2023-05-07,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,20,2023-05-14,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,21,2023-05-21,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,22,2023-05-28,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,23,2023-06-04,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,24,2023-06-11,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,25,2023-06-18,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,26,2023-06-25,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,27,2023-07-02,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,28,2023-07-09,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,29,2023-07-16,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,30,2023-07-23,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,31,2023-07-30,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,32,2023-08-06,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,33,2023-08-13,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,34,2023-08-20,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,35,2023-08-27,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,36,2023-09-03,,0,,,,,,,,,,,,0,1
+AMR,Central America and Caribbean,Anguilla,AIA,SENTINEL,2023,37,2023-09-10,,0,,,,,,,,,,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,17,2022-04-24,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,18,2022-05-01,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,19,2022-05-08,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,20,2022-05-15,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,21,2022-05-22,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,22,2022-05-29,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,23,2022-06-05,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,24,2022-06-12,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,25,2022-06-19,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,26,2022-06-26,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,27,2022-07-03,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,28,2022-07-10,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,29,2022-07-17,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,30,2022-07-24,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,31,2022-07-31,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,32,2022-08-07,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,33,2022-08-14,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,34,2022-08-21,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,35,2022-08-28,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,36,2022-09-04,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,37,2022-09-11,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,38,2022-09-18,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,39,2022-09-25,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,40,2022-10-02,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,41,2022-10-09,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,42,2022-10-16,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,43,2022-10-23,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,44,2022-10-30,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,45,2022-11-06,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,46,2022-11-13,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,47,2022-11-20,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,48,2022-11-27,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,49,2022-12-04,21,21,,3,1,0,0,4,1,0,0,1,5,16,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,50,2022-12-11,25,25,,5,0,0,0,5,2,0,0,2,7,18,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,51,2022-12-18,16,16,,2,0,0,0,2,,0,0,,2,14,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2022,52,2022-12-25,26,26,,0,,0,0,,1,0,0,1,1,25,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,1,2023-01-01,106,106,,16,0,0,0,16,6,0,0,6,22,84,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,2,2023-01-08,54,54,,9,1,0,0,10,2,0,0,2,12,42,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,3,2023-01-15,77,77,,3,0,0,0,3,3,0,0,3,6,71,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,4,2023-01-22,81,81,,2,0,0,0,2,1,0,0,1,3,78,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,5,2023-01-29,147,147,,17,0,0,0,17,1,0,0,1,18,129,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,6,2023-02-05,84,84,,0,0,0,0,,9,0,0,9,9,75,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,7,2023-02-12,34,34,,0,0,0,0,,,0,0,,,34,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,8,2023-02-19,9,9,,1,0,0,0,1,,0,0,,1,8,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,9,2023-02-26,6,6,,0,0,0,0,,,0,0,,,6,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,10,2023-03-05,0,0,,0,0,0,0,,2,0,0,2,2,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,11,2023-03-12,25,25,,0,0,0,0,,,0,0,,,25,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,12,2023-03-19,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,13,2023-03-26,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,14,2023-04-02,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,15,2023-04-09,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,16,2023-04-16,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,17,2023-04-23,5,5,,0,0,0,0,,,0,0,,,5,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,18,2023-04-30,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,19,2023-05-07,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,20,2023-05-14,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,21,2023-05-21,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,22,2023-05-28,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,23,2023-06-04,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,24,2023-06-11,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,25,2023-06-18,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,26,2023-06-25,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,27,2023-07-02,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,28,2023-07-09,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,29,2023-07-16,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,30,2023-07-23,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,31,2023-07-30,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,32,2023-08-06,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,33,2023-08-13,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,34,2023-08-20,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,35,2023-08-27,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,36,2023-09-03,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,37,2023-09-10,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,38,2023-09-17,6,6,,0,3,0,0,3,,0,0,,3,3,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,39,2023-09-24,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,40,2023-10-01,3,3,,0,0,0,0,,,0,0,,,1,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,41,2023-10-08,5,5,,0,3,0,0,3,,0,0,,3,3,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,42,2023-10-15,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,43,2023-10-22,10,10,,0,0,0,0,,,0,0,,,10,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,44,2023-10-29,4,4,,0,0,0,0,,,0,0,,,4,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,45,2023-11-05,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,46,2023-11-12,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,47,2023-11-19,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,48,2023-11-26,5,5,,0,0,0,0,,,0,0,,,5,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,49,2023-12-03,6,6,,0,0,0,0,,,0,0,,,6,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,50,2023-12-10,5,5,,0,0,0,0,,,0,0,,,5,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,51,2023-12-17,22,22,,0,6,0,0,6,,0,0,,6,16,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2023,52,2023-12-24,10,10,,0,1,0,0,1,,0,0,,1,9,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2024,1,2023-12-31,5,5,,0,0,0,0,,,0,0,,,5,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2024,2,2024-01-07,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2024,3,2024-01-14,28,28,,0,13,0,0,13,,0,0,,13,15,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2024,4,2024-01-21,10,10,,0,0,0,0,,,0,0,,,10,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2024,5,2024-01-28,15,15,,0,0,0,0,,,0,0,,,15,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2024,6,2024-02-04,3,3,,0,0,0,0,,,0,0,,,3,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2024,7,2024-02-11,6,6,,0,0,0,0,,,0,0,,,6,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2024,8,2024-02-18,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2024,9,2024-02-25,7,7,,0,0,0,0,,2,0,0,2,2,5,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2024,10,2024-03-03,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2024,11,2024-03-10,14,14,,0,0,0,0,,3,0,0,3,3,11,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2024,12,2024-03-17,1,1,,0,0,0,0,,,0,0,,,1,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2024,13,2024-03-24,15,15,,0,0,0,0,,7,0,0,7,7,8,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2024,14,2024-03-31,5,5,,0,0,0,0,,,0,0,,,5,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2024,15,2024-04-07,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2024,16,2024-04-14,0,0,,0,0,0,0,,,0,0,,,0,1
+EMR,Southern Asia,Afghanistan,AFG,NONSENTINEL,2024,17,2024-04-21,5,5,,0,0,0,0,,,0,0,,,5,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,17,2022-04-24,33,33,,0,0,0,0,,,0,0,,,33,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,18,2022-05-01,10,10,,0,0,0,0,,,0,0,,,10,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,19,2022-05-08,55,55,,0,0,0,0,,,0,0,,,55,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,20,2022-05-15,40,40,,0,0,0,0,,,0,0,,,40,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,21,2022-05-22,50,50,,0,0,0,0,,,0,0,,,50,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,22,2022-05-29,35,35,,0,0,0,0,,,0,0,,,35,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,23,2022-06-05,40,40,,0,0,0,0,,,0,0,,,40,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,24,2022-06-12,30,30,,0,0,0,0,,,0,0,,,30,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,25,2022-06-19,41,41,,0,0,0,0,,,0,0,,,41,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,26,2022-06-26,45,45,,0,0,0,0,,,0,0,,,45,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,27,2022-07-03,40,40,,0,0,0,0,,,0,0,,,40,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,28,2022-07-10,15,15,,0,0,0,0,,,0,0,,,15,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,29,2022-07-17,30,30,,0,0,0,0,,,0,0,,,20,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,30,2022-07-24,25,25,,0,0,0,0,,,0,0,,,25,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,31,2022-07-31,35,35,,0,0,0,0,,,0,0,,,35,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,32,2022-08-07,30,30,,0,0,0,0,,,0,0,,,30,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,33,2022-08-14,30,30,,0,0,0,0,,,0,0,,,30,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,34,2022-08-21,35,35,,1,0,0,0,1,,0,0,,1,34,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,35,2022-08-28,40,40,,0,0,0,0,,,0,0,,,40,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,36,2022-09-04,40,40,,0,0,0,0,,,0,0,,,40,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,37,2022-09-11,30,30,,0,0,0,0,,,0,0,,,30,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,38,2022-09-18,61,61,,0,0,0,0,,,0,0,,,61,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,39,2022-09-25,43,43,,1,0,0,0,1,,0,0,,1,42,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,40,2022-10-02,80,80,,0,0,0,0,,,0,0,,,80,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,41,2022-10-09,70,70,,1,0,0,0,1,,0,0,,1,69,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,42,2022-10-16,90,90,,6,1,0,0,7,,0,0,,7,83,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,43,2022-10-23,100,100,,5,0,0,0,5,,0,0,,5,95,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,44,2022-10-30,70,70,,5,1,0,0,6,,0,0,,6,64,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,45,2022-11-06,80,80,,12,3,0,0,15,1,0,0,1,16,64,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,46,2022-11-13,80,80,,15,1,0,0,16,,0,0,,16,64,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,47,2022-11-20,40,40,,12,1,0,0,13,,0,0,,13,27,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,48,2022-11-27,130,130,,30,0,0,0,30,1,0,0,1,31,99,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,49,2022-12-04,90,90,,16,0,0,0,16,1,0,0,1,17,73,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,50,2022-12-11,105,105,,25,0,0,0,25,2,0,0,2,27,78,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,51,2022-12-18,80,80,,10,0,0,0,10,2,0,0,2,12,68,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2022,52,2022-12-25,86,86,,3,1,0,0,4,2,0,0,2,6,80,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,1,2023-01-01,60,60,,2,0,0,0,2,2,0,0,2,4,56,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,2,2023-01-08,73,73,,1,0,0,0,1,4,0,0,4,5,68,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,3,2023-01-15,111,111,,5,0,0,0,5,4,0,0,4,9,102,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,4,2023-01-22,72,72,,5,0,0,0,5,3,0,0,3,8,64,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,5,2023-01-29,109,109,,1,1,0,0,2,3,0,0,3,5,104,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,6,2023-02-05,70,70,,1,0,0,0,1,2,0,0,2,3,67,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,7,2023-02-12,85,85,,2,0,0,0,2,2,0,0,2,4,81,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,8,2023-02-19,100,100,,1,0,0,0,1,4,0,0,4,5,95,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,9,2023-02-26,60,60,,1,1,0,0,2,4,0,0,4,6,54,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,10,2023-03-05,80,80,,0,0,0,0,,3,0,0,3,3,77,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,11,2023-03-12,70,70,,0,0,0,0,,2,0,0,2,2,68,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,12,2023-03-19,80,80,,0,0,0,0,,5,0,0,5,5,75,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,13,2023-03-26,67,67,,0,0,0,0,,2,0,0,2,2,65,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,14,2023-04-02,70,70,,0,0,0,0,,,0,0,,,70,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,15,2023-04-09,64,64,,0,0,0,0,,,0,0,,,64,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,16,2023-04-16,30,30,,0,0,0,0,,,0,0,,,30,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,17,2023-04-23,55,55,,0,0,0,0,,1,0,0,1,1,54,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,18,2023-04-30,45,45,,0,0,0,0,,,0,0,,,45,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,19,2023-05-07,31,31,,0,0,0,0,,,0,0,,,31,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,20,2023-05-14,45,45,,0,0,0,0,,,0,0,,,45,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,21,2023-05-21,56,56,,0,0,0,0,,,0,0,,,56,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,22,2023-05-28,40,40,,0,0,0,0,,1,0,0,1,1,39,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,23,2023-06-04,40,40,,0,0,0,0,,,0,0,,,40,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,24,2023-06-11,35,33,,0,0,0,0,,,0,0,,,33,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,25,2023-06-18,45,45,,0,0,0,0,,,0,0,,,45,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,26,2023-06-25,33,33,,0,0,0,0,,,0,0,,,33,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,27,2023-07-02,30,30,,0,0,0,0,,,0,0,,,30,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,28,2023-07-09,50,50,,0,0,0,0,,1,0,0,1,1,49,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,29,2023-07-16,45,45,,0,0,0,0,,,0,0,,,45,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,30,2023-07-23,35,35,,0,0,0,0,,1,0,0,1,1,34,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,31,2023-07-30,40,40,,0,0,0,0,,,0,0,,,40,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,32,2023-08-06,40,40,,0,0,0,0,,,0,0,,,40,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,33,2023-08-13,40,40,,0,0,0,0,,,0,0,,,40,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,34,2023-08-20,45,45,,0,0,0,0,,,0,0,,,45,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,35,2023-08-27,40,40,,0,0,0,0,,1,0,0,1,1,39,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,36,2023-09-03,34,34,,0,1,0,0,1,,0,0,,1,33,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,37,2023-09-10,36,36,,0,0,0,0,,,0,0,,,36,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,38,2023-09-17,35,35,,0,0,0,0,,,0,0,,,35,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,39,2023-09-24,50,50,,0,0,0,0,,,0,0,,,50,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,40,2023-10-01,49,49,,0,0,0,0,,,0,0,,,49,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,41,2023-10-08,76,76,,0,2,0,0,2,,0,0,,2,74,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,42,2023-10-15,91,91,,0,3,0,0,3,,0,0,,3,88,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,43,2023-10-22,43,43,,0,3,0,0,3,,0,0,,3,40,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,44,2023-10-29,105,105,,0,8,0,0,8,,0,0,,8,97,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,45,2023-11-05,100,100,,0,13,0,0,13,,0,0,,13,87,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,46,2023-11-12,100,100,,0,15,0,0,15,,0,0,,15,85,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,47,2023-11-19,120,118,,0,16,0,0,16,,0,0,,16,102,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,48,2023-11-26,100,98,,0,15,0,0,15,,0,0,,15,83,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,49,2023-12-03,90,88,,0,12,0,0,12,,0,0,,12,76,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,50,2023-12-10,120,118,,0,17,0,0,17,2,0,0,2,19,99,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,51,2023-12-17,80,80,,0,5,0,0,5,1,0,0,1,6,74,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2023,52,2023-12-24,127,125,,1,19,0,0,20,,0,0,,20,105,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2024,1,2023-12-31,60,60,,0,3,0,0,3,1,0,0,1,4,57,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2024,2,2024-01-07,110,110,,0,5,0,0,5,2,0,0,2,7,103,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2024,3,2024-01-14,70,70,,0,1,0,0,1,2,0,0,2,3,67,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2024,4,2024-01-21,110,110,,0,2,0,0,2,1,0,0,1,3,107,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2024,5,2024-01-28,100,100,,0,3,0,0,3,,0,0,,3,97,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2024,6,2024-02-04,90,90,,0,4,0,0,4,,0,0,,4,85,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2024,7,2024-02-11,110,110,,0,1,0,0,1,1,0,0,1,2,108,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2024,8,2024-02-18,100,100,,2,0,0,0,2,2,0,0,2,4,96,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2024,9,2024-02-25,100,100,,0,0,0,0,,5,0,0,5,5,95,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2024,10,2024-03-03,110,110,,1,1,0,0,2,2,0,0,2,4,106,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2024,11,2024-03-10,90,90,,0,1,0,0,1,6,0,0,6,7,83,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2024,12,2024-03-17,110,110,,0,0,0,0,,9,0,0,9,9,101,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2024,13,2024-03-24,80,80,,0,0,0,0,,2,0,0,2,2,78,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2024,14,2024-03-31,70,70,,0,0,0,0,,4,0,0,4,4,66,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2024,15,2024-04-07,40,40,,0,0,0,0,,1,0,0,1,1,39,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2024,16,2024-04-14,46,46,,0,0,0,0,,,0,0,,,46,1
+EMR,Southern Asia,Afghanistan,AFG,SENTINEL,2024,17,2024-04-21,55,55,,0,0,0,0,,2,0,0,2,2,53,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2022,17,2022-04-24,,479,0,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2022,18,2022-05-01,,413,0,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2022,20,2022-05-15,,479,0,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2022,21,2022-05-22,,469,0,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2022,22,2022-05-29,,499,0,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2022,40,2022-10-02,,181,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2022,41,2022-10-09,,187,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2022,42,2022-10-16,,157,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2022,43,2022-10-23,,152,,0,0,,4,4,,0,0,,4,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2022,44,2022-10-30,,141,,0,0,,1,1,,0,0,,1,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2022,45,2022-11-06,,123,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2022,46,2022-11-13,,162,,0,0,,1,1,,0,0,,1,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2022,47,2022-11-20,,93,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2022,48,2022-11-27,,125,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2022,49,2022-12-04,,78,,3,5,,0,8,,0,0,,8,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2022,50,2022-12-11,,134,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2022,51,2022-12-18,,104,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2022,52,2022-12-25,,85,,0,0,,20,20,,0,0,,20,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,1,2023-01-01,,58,,20,15,,0,35,,0,0,,35,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,2,2023-01-08,,75,,20,8,,0,28,,0,0,,28,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,3,2023-01-15,,158,,17,7,,24,48,,0,0,,48,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,4,2023-01-22,,0,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,5,2023-01-29,,109,,9,0,,0,9,,0,0,,9,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,6,2023-02-05,,110,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,7,2023-02-12,,132,,7,0,,11,18,,0,0,,18,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,8,2023-02-19,,145,,0,0,,16,16,,0,10,10,26,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,9,2023-02-26,,124,,3,0,,0,3,,0,4,4,7,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,10,2023-03-05,,80,,0,0,,0,,,0,5,5,5,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,11,2023-03-12,,112,,1,0,,0,1,,0,7,7,8,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,12,2023-03-19,,108,,0,0,,0,,,0,13,13,13,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,13,2023-03-26,,88,,0,0,,0,,,0,10,10,10,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,14,2023-04-02,,78,,0,0,,0,,,0,5,5,5,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,15,2023-04-09,,56,,0,0,,0,,,0,4,4,4,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,16,2023-04-16,,56,,0,0,,0,,,0,2,2,2,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,17,2023-04-23,,65,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,18,2023-04-30,,77,,0,0,,0,,,0,1,1,1,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,19,2023-05-07,,47,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,20,2023-05-14,,76,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,21,2023-05-21,,46,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,22,2023-05-28,,54,,0,0,,0,,,0,1,1,1,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,23,2023-06-04,,69,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,24,2023-06-11,,64,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,25,2023-06-18,,41,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,26,2023-06-25,,37,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,27,2023-07-02,,55,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,28,2023-07-09,,34,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,29,2023-07-16,,28,,0,0,,0,,,0,3,3,3,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,30,2023-07-23,,54,,0,0,,0,,,0,5,5,5,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,31,2023-07-30,,31,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,32,2023-08-06,,59,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,34,2023-08-20,,52,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,35,2023-08-27,,63,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,36,2023-09-03,,49,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,38,2023-09-17,,75,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,39,2023-09-24,,126,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,40,2023-10-01,,60,,,,,0,,,,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,41,2023-10-08,,126,,,,,0,,,,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,42,2023-10-15,,63,,,,,0,,,,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,43,2023-10-22,,57,,,,,,,,,,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,44,2023-10-29,,126,,,,,0,,,,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,45,2023-11-05,,62,,,,,0,,,,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,46,2023-11-12,,53,,,,,0,,,,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,47,2023-11-19,,72,,,,,,,,,,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,48,2023-11-26,,2,,,,,,,,,,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,49,2023-12-03,,42,,,,,,,,,,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,50,2023-12-10,,72,,,,,0,,,,0,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,51,2023-12-17,,65,,,,,2,2,,,,,2,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2023,52,2023-12-24,,72,,,,,,,,,,,,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2024,1,2023-12-31,,44,,,,,1,1,,,,,1,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2024,2,2024-01-07,,118,,7,,,7,14,,,,,14,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2024,3,2024-01-14,,76,,,,,8,8,,,,,8,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2024,4,2024-01-21,,70,,,,,2,2,,,2,2,4,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2024,5,2024-01-28,,80,,,,,3,3,,,2,2,5,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2024,6,2024-02-04,,111,,,,,8,8,,,2,2,10,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2024,7,2024-02-11,,40,,,,,4,4,,,1,1,5,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2024,8,2024-02-18,,25,,,,,5,5,,,,,5,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2024,9,2024-02-25,,30,,,,,2,2,,,1,1,3,,1
+EUR,South West Europe,Albania,ALB,NONSENTINEL,2024,10,2024-03-03,,26,,,,,,,,,1,1,1,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2022,17,2022-04-24,,58,0,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2022,18,2022-05-01,,57,0,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2022,20,2022-05-15,,47,0,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2022,21,2022-05-22,,79,0,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2022,22,2022-05-29,,80,0,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2022,40,2022-10-02,,43,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2022,41,2022-10-09,,68,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2022,42,2022-10-16,,78,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2022,43,2022-10-23,,46,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2022,44,2022-10-30,,55,,0,0,,1,1,,0,0,,1,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2022,45,2022-11-06,,60,,0,0,,1,1,,0,0,,1,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2022,46,2022-11-13,,41,,0,0,,1,1,,0,0,,1,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2022,47,2022-11-20,,43,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2022,48,2022-11-27,,36,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2022,49,2022-12-04,,83,,0,9,,0,9,,0,0,,9,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2022,50,2022-12-11,,78,,0,0,,14,14,,0,0,,14,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2022,51,2022-12-18,,59,,0,0,,24,24,,0,0,,24,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2022,52,2022-12-25,,86,,0,0,,31,31,,0,0,,31,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,1,2023-01-01,,112,,20,15,,0,35,,0,0,,35,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,2,2023-01-08,,126,,25,5,,30,60,,0,0,,60,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,3,2023-01-15,,138,,25,10,,35,70,,0,0,,70,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,4,2023-01-22,,137,,22,5,,0,27,,0,4,4,31,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,5,2023-01-29,,129,,20,5,,0,25,,0,8,8,33,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,6,2023-02-05,,121,,0,0,,38,38,,0,0,,38,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,7,2023-02-12,,129,,26,1,,0,27,,0,10,10,37,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,8,2023-02-19,,143,,0,0,,30,30,,0,13,13,43,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,9,2023-02-26,,130,,13,0,,0,13,,0,16,16,29,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,10,2023-03-05,,101,,4,0,,0,4,,0,12,12,16,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,11,2023-03-12,,96,,2,0,,0,2,,0,12,12,14,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,12,2023-03-19,,93,,0,0,,0,,,0,20,20,20,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,13,2023-03-26,,84,,0,0,,0,,,0,5,5,5,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,14,2023-04-02,,102,,0,0,,0,,,0,19,19,19,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,15,2023-04-09,,73,,0,0,,0,,,0,4,4,4,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,16,2023-04-16,,92,,0,0,,0,,,0,8,8,8,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,17,2023-04-23,,106,,0,0,,0,,8,0,0,8,8,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,18,2023-04-30,,53,,0,0,,0,,,0,3,3,3,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,19,2023-05-07,,76,,0,0,,0,,,0,4,4,4,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,20,2023-05-14,,84,,0,0,,0,,,0,3,3,3,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,21,2023-05-21,,59,,0,0,,0,,,0,1,1,1,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,22,2023-05-28,,80,,0,0,,0,,,0,1,1,1,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,23,2023-06-04,,70,,0,0,,0,,,0,2,2,2,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,24,2023-06-11,,59,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,25,2023-06-18,,49,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,26,2023-06-25,,37,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,27,2023-07-02,,35,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,28,2023-07-09,,39,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,29,2023-07-16,,27,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,30,2023-07-23,,46,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,31,2023-07-30,,40,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,32,2023-08-06,,35,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,34,2023-08-20,,49,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,35,2023-08-27,,58,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,36,2023-09-03,,54,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,38,2023-09-17,,65,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,39,2023-09-24,,79,,0,0,,0,,,0,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,40,2023-10-01,,69,,,,,0,,,,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,41,2023-10-08,,40,,,,,0,,,,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,42,2023-10-15,,44,,,,,,,,,,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,43,2023-10-22,,74,,,,,0,,,,,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,44,2023-10-29,,32,,,,,0,,,,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,45,2023-11-05,,70,,,,,0,,,,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,46,2023-11-12,,94,,,,,0,,,,0,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,47,2023-11-19,,85,,3,,,3,6,,,,,6,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,48,2023-11-26,,48,,,,,0,,,,,,,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,49,2023-12-03,,80,,,,,1,1,,,0,,1,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,50,2023-12-10,,99,,5,,,5,10,,,,,10,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,51,2023-12-17,,110,,,,,19,19,,,,,19,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2023,52,2023-12-24,,91,,,,,17,17,,,,,17,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2024,1,2023-12-31,,85,,,,,22,22,,,,,22,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2024,2,2024-01-07,,319,,85,5,,90,180,,,2,2,182,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2024,3,2024-01-14,,390,,129,5,,134,268,,,5,5,273,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2024,4,2024-01-21,,386,,143,6,,149,298,,,2,2,300,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2024,5,2024-01-28,,479,,,,,153,153,,,8,8,161,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2024,6,2024-02-04,,367,,,,,164,164,,,14,14,178,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2024,7,2024-02-11,,280,,,,,83,83,,,17,17,100,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2024,8,2024-02-18,,194,,,,,48,48,,,16,16,64,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2024,9,2024-02-25,,217,,,,,34,34,,,25,25,59,,1
+EUR,South West Europe,Albania,ALB,SENTINEL,2024,10,2024-03-03,,211,,,,,19,19,,,18,18,37,,1
