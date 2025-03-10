@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1001226096161",
+    "project_id": "yalapay-349f0",
+    "storage_bucket": "yalapay-349f0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001226096161:android:d7cfa89d562355870f9d60",
+        "android_client_info": {
+          "package_name": "com.example.yalapay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-0BoPzd2DXfm3ipDUgoH86osLojLq6gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001226096161:android:8d3ffa681fcbee7e0f9d60",
+        "android_client_info": {
+          "package_name": "com.yala.y"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-0BoPzd2DXfm3ipDUgoH86osLojLq6gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
