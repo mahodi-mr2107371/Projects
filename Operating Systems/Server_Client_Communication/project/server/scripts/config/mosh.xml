@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>Mosh</short>
+  <description>Mobile Shell</description>
+  <port protocol="tcp" port="60000-61000"/>
+</service>

@@ -1,0 +1,10 @@
+2024-03-22 13:36:37 Connectivity with 192.168.10.1 is ok
+
+2024-03-22 13:36:40 Connectivity with 192.168.10.9 is ok
+
+traceroute to 192.168.10.255 (192.168.10.255), 5 hops max, 60 byte packets
+ 1  _gateway (192.168.111.2)  2.858 ms  2.619 ms  2.503 ms
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
