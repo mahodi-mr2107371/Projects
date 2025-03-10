@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit a Paper</title>
+  <link rel="stylesheet" href="/public/styles/submit-paper.css">
+  
+</head>
+<body>
+  <main>
+    <div id="page-top">
+      <h1>
+        <span style="font-style: italic;letter-spacing: 0.13em;">C<span style="color:#FF9FA1">o</span>nf</span><span style="font-weight:lighter">Plus</span>
+      </h1>
+      <header>
+        <nav>
+            <ul>
+              <li><a href="/templates/display-schedule.html">CONFERENCE SCHEDULE</a></li>
+              <li><a href="../templates/login.html">LOGIN</a></li>
+              <li><a href="/templates/submit-paper.html">SUBMIT PAPER</a></li>
+              <li><a href="/templates/review-paper.html">REVIEW PAPER</a></li>
+              <li><a href="/templates/manage-conference.html">MANAGE CONFERENCE</a></li>
+            </ul>
+          </nav>
+          
+    </header>
+    </div>
+    <div id="content">
+    <h1>SUBMIT A PAPER</h1>
+    <form id="paper-form" enctype="multipart/form-data">
+    <label for="title">Title</label>
+    <input type="text" id="title" name="title" required>
+    <br>
+    <label for="abstract">Abstract</label>
+    <textarea id="abstract" name="abstract" required></textarea>
+    <br>
+    <div id="author-container">
+      <!-- Author input sections will be dynamically added and removed here -->
+    </div>   
+    <div id="buttons">
+      <button type="button" id="add-author">Add Author</button>
+      <button type="button" id="remove-author">Remove Author</button>
+    </div>
+    <br>
+    <label for="file">Paper PDF</label>
+    <input type="file" id="file" name="file" accept=".pdf" required>
+    <br>
+    <div id="sub">
+      <button type="submit" id="submit-btn">Submit Paper</button>
+    </div>  
+    </form>
+  </div>
+  </form>
+  <script src="/public/scripts/submit-paper.js" type="module"></script>
+  </main>
+</body>
+</html>

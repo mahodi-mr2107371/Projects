@@ -1,0 +1,178 @@
+/* display-schedule.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 0.4fr auto;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: 'head head'
+    'schedule schedule';
+}
+
+/*common part*/
+
+header {
+  background-color: #ecd4f5;
+  padding: 1px;
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+
+#page-top {
+  grid-area: head;
+  background-color: #424874;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#page-top h1 {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  margin: 0.4em auto 0.4em auto;
+}
+
+nav {
+  flex: 1;
+  margin: 0;
+  width: 90em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-top: 1.5em;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav ul li {
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  border: 3px solid #ecd4f5;
+  border-radius: 1em;
+  background-color: #EFEFFF;
+  margin: 0.5em 0.5em;
+  pointer-events: none;
+  transition: background-color 0.13s linear;
+  transition: border 0.13s linear;
+}
+
+nav li a {
+  color: #3d0066;
+  text-decoration: none;
+  margin: auto 3em auto 3em;
+  font-size: 1.13em;
+  pointer-events: auto;
+  transition: color 0.13s linear;
+}
+
+nav li:hover {
+  background-color: #FDE2F3;
+  border: 3px solid #917FB3;
+  transition: background-color 0.13s linear;
+  transition: border 0.13s linear;
+}
+
+nav ul li a:hover {
+  color: #8e408a;
+  transition: color 0.13s linear;
+}
+
+/*ends here */
+
+#conf {
+  margin: 1em auto 0em auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #3d0066;
+  width: 35%;
+  border: 3px solid #3d0066;
+  border-bottom: none;
+  border-radius: 1em 1em 0 0;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+
+#schedule {
+  grid-area: schedule;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+#schedule-container {
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+  border: 3px solid #3d0066;
+  border-radius: 2em;
+  height: 100%;
+  margin-bottom: 2em;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0.5em auto;
+  width: 100%;
+  border: 3px solid #595979b2;
+}
+
+th,
+td {
+  border: 2px solid #595979b2;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #b4d5f0;
+  font-weight: bold;
+  color: #3d0066;
+}
+
+tr:nth-child(even) {
+  background-color: #b8b8b8;
+  color: #647b81;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1065px) {
+  h1 {
+    font-size: 24px;
+    padding: 15px;
+  }
+  
+  #schedule-container {
+    padding: 10px;
+  }
+  table {  
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 6px;
+  }
+  header {
+    height: 72%;
+  }
+  nav ul {
+    flex-wrap: wrap;
+  }
+  nav ul li {
+    margin: 0.5em 0.5em;
+  }
+
+  #conf {
+    margin-top: 3em;
+    width: 50%
+  }
+}

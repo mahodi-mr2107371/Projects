@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="styles/login.css">
+</head>
+<body>
+  <main>
+    <div id="page-top">
+      <h1>
+        <span style="font-style: italic;letter-spacing: 0.13em;">C<span style="color:#FF9FA1">o</span>nf</span><span style="font-weight:lighter">Plus</span>
+      </h1>
+    </div>
+    <div id="login">
+    <h1>REGISTER</h1>
+    <form id="login-form">
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+      <br>
+      <label for="password">Password</label>
+    <input type="password" id="password" required>
+    <label for="account-type">Role</label><br>
+    <select id="account-type">
+      <option disabled selected value>Select a Role</option>
+      <option value="Reviewer">Reviewer</option>
+      <option value="Author">Author</option>
+      <option value="Organizer">Organizer</option>
+    </select>
+    <br>
+    <br>
+    <br>
+    <button type="submit">Create</button>
+    <button id="return">Return</button>
+  </form>
+  </div>
+  </main>
+  <script src="scripts/register.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "email": "organizer@email.com",
+    "password": "organizer123",
+    "role": "organizer"
+  },
+  {
+    "id": 2,
+    "email": "reviewer1@email.com",
+    "password": "reviewer123",
+    "role": "reviewer"
+  },
+  {
+    "id": 3,
+    "email": "author@email.com",
+    "password": "author123",
+    "role": "author"
+  },
+  {
+    "id": 4,
+    "email": "reviewer2@email.com",
+    "password": "reviewer234",
+    "role": "reviewer"
+  },
+  {
+      "id": 5,
+      "email": "sample@email.com",
+      "password": "sample",
+      "role": "organizer"
+  },
+  {
+    "id": 93020,
+    "email": "patron@sample.com",
+    "password": "test1234",
+    "role": "organizer"
+  },
+  {
+    "id": 27026,
+    "email": "grub@rise.com",
+    "password": "wowie4567",
+    "role": "reviewer"
+  },
+  {
+    "id": 80182,
+    "email": "mahodi@qu.edu.qa",
+    "password": "kdfnksdngflwdgn",
+    "role": "author"
+  },
+  {
+    "id": 88559,
+    "email": "rii@silly.com",
+    "password": "1603",
+    "role": "organizer"
+  }
+]

@@ -1,0 +1,21 @@
+[
+    {
+      "name": "John Smith",
+      "email": "john.smith@example.com",
+      "password": "password123",
+      "role": "organizer"
+    },
+    {
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "password": "password456",
+      "role": "reviewer"
+    },
+    {
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "password": "password789",
+      "role": "author"
+    }
+  ]
+  

@@ -1,0 +1,33 @@
+
+html{
+    height: 100%;
+    width: 100%;
+    padding: 0px 1px;
+}
+header{
+    display: flex;
+}
+#header1Nav{
+    height:20%;
+    width: 100%;
+    display: flex;
+    gap:10px;
+}
+.navDivs{
+    display: grid;
+    cursor: pointer;
+    grid-template-rows: 1fr;
+}
+.navNames{
+    display: flex;
+}
+main{
+    height: 60%;
+    width:100%;
+}
+#mainImage{
+    width:100%;
+}
+footer{
+    height: 10%;
+}

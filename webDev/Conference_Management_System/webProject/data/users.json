@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "email": "organizer@email.com",
+    "password": "organizer123",
+    "role": "organizer"
+  },
+  {
+    "id": 2,
+    "email": "reviewer1@email.com",
+    "password": "reviewer123",
+    "role": "reviewer"
+  },
+  {
+    "id": 3,
+    "email": "author@email.com",
+    "password": "author123",
+    "role": "author"
+  },
+  {
+    "id": 4,
+    "email": "reviewer2@email.com",
+    "password": "reviewer234",
+    "role": "reviewer"
+  }
+]

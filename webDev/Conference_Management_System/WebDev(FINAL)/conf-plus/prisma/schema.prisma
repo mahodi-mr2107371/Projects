@@ -1,0 +1,108 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Role {
+  role String @id
+  users User[]
+}
+
+model User {
+  id String @id @default(cuid())
+  email String @unique
+  password String
+
+  role Role @relation(fields: [userRole], references: [role])
+  userRole String
+
+  //Specifically for Reviewers
+  rPapers ReviewPapers[]
+}
+
+model Paper {
+  title String 
+  abstract String
+  score Int
+  authors PaperAuthors[]
+  reviwers ReviewPapers[]
+  session Session[]
+
+  fileName String
+  size Int
+  file Bytes
+  type String
+
+  overall Int?
+  contributions Int?
+  strengths String?
+  weaknesses String?
+
+  @@id ([title,abstract])
+}
+
+model PaperAuthors{
+  paper Paper @relation (fields:[title,abstract], references: [title,abstract])
+  title String
+  abstract String
+
+  email String
+
+  fname String
+  lname String
+  institutions Institution @relation(fields:[affil], references: [institution])
+  affil String
+  isPresenter Boolean
+
+  @@id ([email, title])
+}
+
+model ReviewPapers {
+  userId User @relation(fields:[id], references: [id])
+  paper Paper @relation (fields:[title,abstract], references: [title,abstract])
+  title String
+  abstract String
+  id String
+
+  @@id([title, id])
+}
+
+model Institution {
+  institution String @id
+  authors PaperAuthors[]
+}
+
+model Location {
+  location String @id
+  sessions Session[]
+}
+
+model Date {
+  date String @id
+  sessions Session[]
+}
+
+model Session{
+  title String @id
+
+  loc Location @relation(fields:[location], references: [location])
+  location String
+
+  d Date @relation(fields:[date],references: [date])
+  date String
+
+  fromTime String
+  toTime String
+
+  paper Paper @relation(fields:[acceptedTitle, acceptedAbstract], references: [title, abstract])
+  acceptedTitle String
+  acceptedAbstract String
+}
+

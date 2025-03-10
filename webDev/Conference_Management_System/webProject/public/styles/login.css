@@ -1,0 +1,126 @@
+ /* login.css */
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+  
+
+main {
+    display: grid;
+    grid-template-rows: 0.4fr 6fr;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:'head head'
+                        'form form';
+  }
+
+#page-top {
+    grid-area: head;
+    background-color: #424874;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#page-top h1 {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    margin: 0.4em auto 0.4em auto;
+}
+
+#login h1 {
+    text-align: center;
+    color: #3d0066;
+    margin-top: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 1em 1em 0 0;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+
+#login{
+    grid-area:form;
+    margin:4em auto;
+    background-color: white;
+    width:30%;
+    border: 3px solid #3d0066;
+    border-radius: 2em;
+    height:100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top:5em;
+}
+
+#login-form {
+    background-color: white;
+    border-radius: 2em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2em;
+    width: 60%;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+input {
+    display: block;
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin:1em auto;
+}
+
+button {
+    background-color: #845cce;
+    border: 1px solid #845cce;
+    border-radius: 1em;
+    color: white;
+    cursor: pointer;
+    margin: 1em 2em;
+    padding: 10px;
+    width: 30%;
+    font-size: 0.9em;
+    letter-spacing: 3px;
+    transition: background-color 0.13s linear;
+    transition: border 0.13s linear;
+    transition: color 0.13s linear;
+  }
+  
+  button:hover {
+    background-color: #ece3fd;
+    color: #b799ee;
+    border: 1px solid #b799ee;
+    transition: background-color 0.13s linear;
+    transition: border 0.13s linear;
+    transition: color 0.13s linear;
+  }
+
+@media only screen and (max-width: 1065px) {
+    h1 {
+        font-size: 1.5rem;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    #login-form {
+        max-width: 50%;
+    }
+
+    #login{
+        width:80%;
+        padding-top:2em;
+    }
+
+    input,
+    button {
+        font-size: 1rem;
+        padding: 7px;
+    }
+}

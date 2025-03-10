@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manage Conference</title>
+  <link rel="stylesheet" href="styles/manage-conference.css">
+</head>
+<body>
+  <h1>Conference Schedule</h1>
+  <div id="conference-schedule">
+    <!-- The conference schedule will be displayed here -->
+  </div>
+
+  <h2>Add/Update Session</h2>
+  <form id="session-form">
+    <input type="hidden" id="session-id">
+
+    <label for="session-title">Title:</label>
+    <input type="text" id="session-title">
+    <br>
+
+    <label for="session-location">Location:</label>
+    <select id="session-location">
+      <!-- The available locations from locations.json will be loaded here -->
+    </select>
+    <br>
+
+    <label for="session-date">Date:</label>
+    <select id="session-date">
+      <!-- The conference dates from conference-dates.json will be loaded here -->
+    </select>
+    <br>
+
+    <button type="submit">Add/Update Session</button>
+  </form>
+
+  <button onclick="submitConferenceSchedule()">Submit Conference Schedule</button>
+
+  <script src="scripts/manage-conference.js"></script>
+</body>
+</html>

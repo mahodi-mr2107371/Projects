@@ -1,0 +1,118 @@
+{
+  "sessions": [
+    {
+      "time": "09:00",
+      "items": [
+        {
+          "date": "2023-06-12",
+          "type": "paper",
+          "title": "Opening Keynote: The Future of AI",
+          "location": "Main Hall"
+        },
+        {
+          "date": "2023-06-13",
+          "type": "paper",
+          "title": "Machine Learning Techniques in Computer Vision",
+          "location": "Room 102"
+        }
+      ]
+    },
+    {
+      "time": "10:30",
+      "items": [
+        {
+          "date": "2023-06-12",
+          "type": "paper",
+          "title": "Natural Language Processing: Challenges and Opportunities",
+          "location": "Room 102"
+        },
+        {
+          "date": "2023-06-14",
+          "type": "paper",
+          "title": "Reinforcement Learning: From Theory to Practice",
+          "location": "Room 103"
+        }
+      ]
+    },
+    {
+      "time": "13:30",
+      "items": [
+        {
+          "date": "2023-06-12",
+          "type": "paper",
+          "title": "Deep Learning in Healthcare: Applications and Implications",
+          "location": "Room 104"
+        },
+        {
+          "date": "2023-06-14",
+          "type": "paper",
+          "title": "Generative Adversarial Networks: Progress and Prospects",
+          "location": "Room 105"
+        }
+      ]
+    },
+    {
+      "time": "23:10",
+      "items": [
+        {
+          "date": "2023-06-13",
+          "type": "paper",
+          "title": "test for the first time",
+          "location": "Female Engineering Building C07-145"
+        }
+      ]
+    },
+    {
+      "time": "15:58",
+      "items": [
+        {
+          "date": "2023-06-12",
+          "type": "paper",
+          "title": "test for the second time",
+          "location": "QU Library B13-201"
+        }
+      ]
+    },
+    {
+      "time": "12:12",
+      "items": [
+        {
+          "date": "2023-10-10",
+          "type": "paper",
+          "title": "test teest tes ",
+          "location": "CSE Meeting Room BCR-E104"
+        }
+      ]
+    },
+    {
+      "time": "21:46",
+      "items": [
+        {
+          "date": "2023-12-10",
+          "type": "paper",
+          "title": "test 4",
+          "location": "Female Engineering Building C07-145"
+        }
+      ]
+    },
+    {
+      "time": "12:15",
+      "items": [
+        {
+          "date": "2024-04-02",
+          "type": "paper",
+          "title": "wow i am a title",
+          "location": "QU Library B13-201"
+        }
+      ]
+    }
+  ],
+  "conferenceDates": [
+    "2023-06-12",
+    "2023-06-13",
+    "2023-06-14",
+    "2023-10-10",
+    "2023-12-10",
+    "2024-04-02"
+  ]
+}
