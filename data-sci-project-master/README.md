@@ -105,13 +105,9 @@ This project aims to \[provide a brief description of the project's purpose, e.g
 * Seaborn
 * Jupyter Notebook
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🤝 Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
+This is a personal Project, so no public contributions here
 
 ## 📬 Contact
 
