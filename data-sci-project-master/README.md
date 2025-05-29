@@ -1,9 +1,4 @@
-# data-sci-project
-Certainly! Here's a comprehensive `README.md` file tailored for your [data-sci-project-master](https://github.com/mahodi-mr2107371/Projects/tree/main/data-sci-project-master) repository. This template outlines the project's objectives, setup instructions, and other essential details to enhance clarity and usability.
-
----
-
-# Data Science Project Master
+# Data Science Project
 
 Welcome to the **Data Science Project Master** repository! This project encompasses a comprehensive data science workflow, including data preprocessing, exploratory data analysis (EDA), model building, evaluation, and deployment strategies.
 
@@ -120,10 +115,4 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## 📬 Contact
 
-For any questions or suggestions, please contact [Your Name](mailto:your.email@example.com).
-
----
-
-Feel free to customize this `README.md` to better fit the specifics of your project, such as detailing the dataset used, elaborating on the modeling techniques, or adding deployment instructions if applicable.
-
-If you need assistance with any part of this project or further customization of the README, don't hesitate to ask!
+For any questions or suggestions, please contact [Mahodi Hasan](mailto:mahodi.hsp@gmail.com).
