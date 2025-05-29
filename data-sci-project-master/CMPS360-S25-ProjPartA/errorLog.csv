@@ -1,0 +1,26 @@
+0,ValueError,"The column ""Long"" is not in the table. The table contains these columns: Name, ID, Lat, Lon, Stn.Name, Stn.stDate, Stn.edDate",0,,2025-04-15 11:02:08.076029
+1,AttributeError,module 'matplotlib.pyplot' has no attribute 'clear',0,,2025-04-15 11:02:23.655823
+2,AttributeError,module 'numpy' has no attribute 'apply',0,,2025-04-15 11:11:45.545472
+3,AttributeError,'Table' object has no attribute 'appy',0,,2025-04-15 11:12:05.475132
+4,AttributeError,'Table' object has no attribute 'appy',0,,2025-04-15 11:12:06.600685
+5,AttributeError,'Table' object has no attribute 'appy',0,,2025-04-15 11:13:17.059685
+6,AttributeError,'Table' object has no attribute 'appy',0,,2025-04-15 11:13:19.391946
+7,TypeError,Table.with_column() missing 1 required positional argument: 'values',0,,2025-04-15 11:13:47.085351
+8,AssertionError,Even length sequence required,0,,2025-04-15 11:14:17.377596
+9,ValueError,"'color' kwarg must be a color or sequence of color specs.  For a sequence of values to be color-mapped, use the 'c' argument instead.",0,,2025-04-15 11:30:05.166166
+10,TypeError,Table.apply() missing 1 required positional argument: 'fn',0,,2025-04-15 19:34:39.749545
+11,ValueError,The truth value of an array with more than one element is ambiguous. Use a.any() or a.all(),0,,2025-04-15 19:45:33.484126
+12,NameError,name 'first' is not defined,0,,2025-04-15 19:50:35.106077
+13,TypeError,Table.sort() got multiple values for argument 'descending',0,,2025-04-15 19:54:43.850533
+14,AttributeError,'Table' object has no attribute 'drop_duplicates',0,,2025-04-15 19:55:14.665037
+15,NameError,name 'first' is not defined,0,,2025-04-15 19:55:38.947053
+16,AttributeError,'Table' object has no attribute 'drop_duplicates',0,,2025-04-15 19:56:23.012042
+17,ValueError,The truth value of an array with more than one element is ambiguous. Use a.any() or a.all(),0,,2025-04-15 20:01:11.658727
+18,SyntaxError,"'(' was never closed (4070251137.py, line 2)",0,,2025-04-15 20:19:47.254698
+19,SyntaxError,"'(' was never closed (4070251137.py, line 2)",0,,2025-04-15 20:20:04.926497
+20,SyntaxError,"'(' was never closed (4174375348.py, line 1)",0,,2025-04-15 20:25:38.604903
+21,SyntaxError,"'(' was never closed (4174375348.py, line 1)",0,,2025-04-15 20:25:41.023217
+22,SyntaxError,"invalid syntax. Perhaps you forgot a comma? (3029449182.py, line 10)",0,,2025-04-15 21:11:10.081313
+23,NameError,name 'tbl' is not defined,0,,2025-04-15 21:19:55.738171
+27,ValueError,"The column ""Precipitation"" is not in the table. The table contains these columns: Label",0,,2025-04-15 22:09:39.552963
+28,AttributeError,module 'matplotlib.pyplot' has no attribute 'clear',0,,2025-04-15 22:11:03.590963
