@@ -91,10 +91,6 @@ This project aims to \[provide a brief description of the project's purpose, e.g
    python model_evaluation.py
    ```
 
-## 📈 Results
-
-\[Include summaries of model performance metrics, such as accuracy, precision, recall, F1-score, or RMSE. Provide visualizations if available.]
-
 ## 🛠️ Technologies Used
 
 * Python
