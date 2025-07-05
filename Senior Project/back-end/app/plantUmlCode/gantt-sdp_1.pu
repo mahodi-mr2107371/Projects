@@ -1,0 +1,81 @@
+@startgantt
+Project starts 2024-08-26
+
+' Define milestones
+[Planning] happens 2024-08-26
+[Visualization and Research] happens 2024-08-26
+
+
+
+
+' Planning phase
+[Project milestones] on {Mahodi Hasan Sabab, Mohammad Hassam Khaili} starts 2024-08-26 and ends 2024-09-01
+[Anticipated risks] on {Mohammad Hassam Khaili} starts 2024-09-02 and ends 2024-09-08
+
+' Visualization and Research phase
+[Decide SDP idea] on {All} starts 2024-08-26 and ends 2024-08-26
+[Research / determine existing solutions] on {Mahodi Hasan Sabab, Mohammad Hassam Khaili} starts 2024-08-27 and ends 2024-09-02
+[Watch tutorials on how different components of LLMs work] on {Basil Saeed, Mohammad Hassam Khaili} starts 2024-09-03 and ends 2024-09-09
+[Do literature review] on {Basil Saeed, Omer Adil Khan} starts 2024-09-03 and ends 2024-09-09
+[Brainstorm different possible solutions] on {Mahodi Hasan Sabab, Mohammad Hassam Khaili} starts 2024-09-03 and ends 2024-09-09
+[Conduct Market Research and Business Viability] on {Basil Saeed, Omer ADil Khan} starts 2024-09-10 and ends 2024-09-16
+[Compare existing solutions] on {Mahodi Hasan Sabab, Mohammad Hassam Khaili} starts 2024-09-10 and ends 2024-09-16
+[Research on multi modal LLMs architecture] on {All} starts 2024-09-10 and ends 2024-09-16
+
+' Introduction and Analysis phase
+[Introduction and Analysis] happens 2024-09-16
+[Requirements Specification] happens 2024-09-16
+[Document the Problem statement] on {Mohammad Hassam Khaili} starts 2024-09-17 and ends 2024-09-23
+[Document the Project Objectives and the expected benefits and Impacts] on {Mahodi Hasan Sabab} starts 2024-09-17 and ends 2024-09-23
+[Document the Market Research and Business Viability] on {Omer Adil Khan} starts 2024-09-17 and ends 2024-09-23
+[Document the Background and Related Work] on {Basil Saeed} starts 2024-09-17 and ends 2024-09-23
+
+' Requirements Specification phase
+[Work on functional requirements (use case diagram)] on {Basil Saeed, Mohammad Hassam Khaili} starts 2024-09-17 and ends 2024-09-23
+[Software development process] on {Basil Saeed} starts 2024-09-24 and ends 2024-09-30
+[Produce detailed specifications for each use case] on {Mohammad Hassam Khaili} starts 2024-09-24 and ends 2024-09-30
+[Identify non-functional requirements] on {Mahodi Hasan Sabab, Omer Adil Khan} starts 2024-09-24 and ends 2024-09-30
+[List any project-specific assumptions] on {Basil Saeed} starts 2024-10-01 and ends 2024-10-07
+[Identify and discuss the legal and ethical considerations] on {Omer Adil Khan} starts 2024-10-01 and ends 2024-10-14
+
+
+' Design Phase
+[Design Phase] happens 2024-10-08
+[Overview of High-level architecture] on {All} starts 2024-10-08 and ends 2024-10-14
+[Document the purpose of each component in High-level architecture] on {All} starts 2024-10-15 and ends 2024-10-28
+[Discuss the architectural style] on {Basil Saeed, Mohammad Hassam Khaili} starts 2024-10-22 and ends 2024-10-28
+[Discuss alternative solutions and architectural styles] on {Basil Saeed, Mohammad Hassam Khaili, Mahodi Hasan Sabab} starts 2024-10-22 and ends 2024-10-28
+[Design class diagram] on {Basil Saeed, Mohammad Hassam Khaili} starts 2024-10-22 and ends 2024-11-04
+[Create a prototype UI design] on {Mahodi Hasan Sabab} starts 2024-10-22 and ends 2024-11-04
+[Design Sequence Diagrams] on {Basil Saeed, Mohammad Hassam Khaili} starts 2024-10-22 and ends 2024-11-04
+
+' Final Steps
+[Make power point presentation] on {All} starts 2024-11-11 and ends 2024-11-14
+[Revise report] on {All} starts 2024-11-11 and ends 2024-11-14
+
+[Prototype Implementation] happens 2024-10-22
+[Choose the best and most relevant datasets for RAG] on {Omar Adli Khan} starts at 2024-10-22 and ends 2024-11-04
+[Create a prototype UI for mobile] on {Mahodi Hasan Sabab} starts at 2024-10-22 and ends 2024-11-04
+[Start implementation of components in python] on {Basil Saeed, Mohammad Hassam Khaili} starts 2024-11-15 and ends 2024-11-18
+[Evaluate the model] on {Basil Saeed, Mohammad Hassam Khaili} starts 2024-11-19 and ends 2024-11-20
+[Integrate backend with flutter app] on {Basil Saeed, Mahodi Hasan Sabab, Mohammad Hassam Khaili} starts 2024-11-21 and ends 2024-11-24
+[Do testing of application features] on {Omer Adil Khan} starts 2024-11-25 and ends 2024-11-28
+
+' Dependencies
+[Research / determine existing solutions] starts at [Decide SDP idea]'s end
+[Document the Market Research and Business Viability] starts at [Conduct Market Research and Business Viability]'s end
+[Produce detailed specifications for each use case] starts at [Work on functional requirements (use case diagram)]'s end
+'[Identify non-functional requirements] starts at [Software development process]'s end
+'[List any project-specific assumptions] starts at [Identify non-functional requirements]'s end
+[Document the purpose of each component in High-level architecture] starts at [Overview of High-level architecture]'s end
+[Discuss the architectural style] starts at [Overview of High-level architecture]'s end
+[Discuss alternative solutions and architectural styles] starts at [Discuss the architectural style]'s end
+'[Design class diagram] starts at [Discuss alternative solutions and architectural styles]'s end
+[Design Sequence Diagrams] starts at [Produce detailed specifications for each use case]'s end
+[Create a prototype UI for mobile] starts at [Create a prototype UI design]'s end
+[Evaluate the model] starts at [Start implementation of components in python]'s end
+[Integrate backend with flutter app] starts at [Evaluate the model]'s end
+[Do testing of application features] starts at [Integrate backend with flutter app]'s end
+
+
+@endgantt

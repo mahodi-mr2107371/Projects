@@ -1,0 +1,98 @@
+@startuml
+
+skinparam Linetype ortho
+
+class ModelConfigurator {
+    - api_key: str
+    - model_name: str
+    - lock: asyncio.Lock
+    - recent_calls: List[float]
+    - max_requests_per_minute: int
+    - current_backoff: int
+    - in_backoff_until: float
+
+    + __init__(): None
+    + configure_genai(): None
+    + get_model_name(): str
+    + should_throttle(): (bool, float)
+    + handle_error(error): float
+    + generateResponse(label: str, query: str, plant: str, history): str
+}
+
+note left of ModelConfigurator::generateResponse
+Async method to generate a response
+with Gemini API and backoff handling
+end note
+
+note left of ModelConfigurator::should_throttle
+Implements sliding window rate limiting
+end note
+
+note left of ModelConfigurator::handle_error
+Handles rate-limit & other errors
+with exponential backoff and jitter
+end note
+
+class DataStorageManager {
+    - url: str
+    - key: str
+
+    + __init__(): None
+    + store_embedding(labels, text_embeddings, image_embeddings, plantName): None
+}
+
+
+class ImageLabelExtractor {
+    - json_file_path : str
+    - _texts : str[]
+    - _image_paths : str[]
+    - embedder: Embedder
+
+    + __init__(json_file_path, embedder)
+    + _is_valid_text(text: str) : bool
+    + _extract_data()
+    + get_images() : str[]
+    + get_labels() : str[]
+    + display_extracted_data()
+}
+
+class Embedder {
+    - model : SentenceTransformer
+
+    + __init__(model_name)
+    + fetch_and_transform_image(url) : Image
+    + embed_text(texts) : list
+    + embed_image(image_urls) : list
+    + embed_single_image(image) : list
+}
+
+class DataRetriever {
+    - table : Table
+    - embedder : Embedder
+
+    + __init__(table, embedder)
+    + retrieve_data(query_embedding, vector_column_name) : DataFrame
+    + retrieve_data_with_image(image_url, k) : DataFrame
+}
+
+class RetrievalUtility {
+    +retrieve_with_image(query_image: Image)
+    +retrieve_with_text_only(query: String)
+    +get_image_from_base64(imageBase64: String) : Image
+}
+
+class StorageUtility {
+    +process_and_store_data(): void
+}
+
+ImageLabelExtractor "1" *-l- "1" Embedder : has-a
+DataRetriever "1" *-- "1" Embedder : has-a
+RetrievalUtility --> DataRetriever :uses
+RetrievalUtility --> ModelConfigurator :uses
+StorageUtility -u-> Embedder : uses
+StorageUtility --> ImageLabelExtractor : uses
+StorageUtility --> LanceDBHandler : uses
+
+hide RetrievalUtility attributes
+hide StorageUtility attributes
+@enduml

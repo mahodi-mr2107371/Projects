@@ -1,0 +1,59 @@
+@startuml
+skinparam entityPadding 10
+skinparam boxPadding 10
+
+actor User
+box "Frontend Application" #FloralWhite
+    participant "UI" as UI
+end box
+
+box "Backend Application" #AntiqueWhite
+    entity "API" as API
+    entity "RetrievalUtility" as Retrieval
+    entity "DataRetriever" as Retriever
+    database "Supabase" as db
+    entity "Embedder" as Embedder
+    entity "ModelConfigurator" as Config
+end box
+
+User -> UI : Enter Query or Upload Image
+UI -> API : POST /query
+activate API
+
+alt Query Retrieval (Text only)
+    API -> Retrieval : retrieve_with_text_only(query)
+    activate Retrieval
+    Retrieval -> Config : configure_genai()
+    activate Config
+    ' Config -> Config : Set model configuration
+    ' return
+    Retrieval -> Config : get_model_name()
+    return 
+    Retrieval -> "Gemini 2.0 Flash" : send_message(message)
+    return Response
+    deactivate Retrieval
+else Query Retrieval (image + text)
+    API -> Retrieval : retrieve_with_image(image)
+    activate Retrieval
+    Retrieval -> Embedder : Embedder()
+    activate Embedder
+    return
+    Retrieval -> Retriever : DataRetriever(embedder, table)
+    activate Retriever
+    Retriever -> db : search(query_embedding, vector_column_name
+    return documents retrieved
+    Retrieval -> Config : configure_genai()
+    activate Config
+    ' Config -> Config : Set model configuration
+    ' return
+    Retrieval -> Config : get_model_name()
+    return 
+    Retrieval -> "Gemini 2.0 Flash" : send_message(message)
+    return Response
+    deactivate Retrieval
+end
+
+API -> UI : Return Response
+deactivate API
+UI -> User : Display Response
+@enduml

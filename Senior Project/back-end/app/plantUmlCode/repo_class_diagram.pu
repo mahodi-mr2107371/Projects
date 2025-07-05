@@ -1,0 +1,52 @@
+@startuml
+' Styling (optional)
+skinparam classAttributeIconSize 0
+
+package "Repositories" {
+    class ChatRepo {
+        - Dio _dio
+        - String _baseUrl
+        - SupabaseClient supabase
+        - List<dynamic> _chatArray
+
+        + Future<String?> getLocalIpAddress()
+        + Future<List<dynamic>> fetchChats(String uid)
+        + Future<List<dynamic>> loadChats(var chatId)
+        + Future<String> postQuery(Chat chat)
+        + Future<String?> storeChat(Chat chat, var userId, var chatId)
+        + void clearChatArray()
+        + Future<void> deleteChat(var chatId)
+        + Future<String?> storeImage(var imageId, var base64Code)
+        + Future<String?> fetchImage(String imageId)
+    }
+
+    class UserRepo {
+        - SupabaseClient _supabase
+        - static String webClientId
+        - static String iosClientId
+
+        + Future<Users?> signInWithEmailPassword(String email, String password)
+        + Future<bool> addUser(Users user)
+        + Future<void> storeUser(Users user)
+        + Future<Users?>? google_SignIn()
+        + Future<void> signOut()
+        + static Future<void> googleSignOut()
+        + Future<Users?> getUser(String email)
+        + Future<String?> getUserwithId(String id, Users user)
+    }
+}
+
+' External classes for relationships (minimal definitions)
+class Dio
+class SupabaseClient
+class Chat
+class Users
+class GoogleSignIn
+
+ChatRepo --> Dio
+ChatRepo --> SupabaseClient
+ChatRepo --> Chat
+UserRepo --> SupabaseClient
+UserRepo --> Users
+UserRepo --> GoogleSignIn
+@enduml

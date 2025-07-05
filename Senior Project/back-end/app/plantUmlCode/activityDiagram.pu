@@ -1,0 +1,37 @@
+@startuml
+start
+
+:Open Mobile Application;
+:Display Login Options;
+
+if (Have an Account?) then (No)
+  :Sign Up;
+  :Enter Email and Password;
+  :Account Created Successfully;
+  :Go to Login;
+else (Yes)
+  :Choose Login Method;
+endif
+
+if (Login Method = Email/Password?) then (Yes)
+  :Enter Email and Password;
+  if (Credentials Correct?) then (Yes)
+    :Login Successful;
+  else (No)
+    :Show Error: "Invalid Credentials";
+    --> [Retry] :Enter Email and Password;
+  endif
+else (No)
+  :Login with Google;
+  if (Google Login Successful?) then (Yes)
+    :Login Successful;
+  else (No)
+    :Show Error: "Login Failed";
+    --> [Retry] :Login with Google;
+  endif
+endif
+
+:Navigate to Main Screen Where Users Can Chat;
+
+stop
+@enduml

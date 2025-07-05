@@ -1,0 +1,33 @@
+{
+    "Tomato": {
+      "expected_output": "This Tomato has Blossom End Rot.\n\nBrief Description:\nBlossom End Rot is a common disorder caused by calcium deficiency, where the bottom of the fruit turns dark, sunken, and leathery.\n\nPossible Solutions for that disease:\n- Maintain consistent soil moisture\n- Use calcium-rich fertilizers\n- Avoid over-fertilizing with nitrogen"
+    },
+    "Potato": {
+      "expected_output": "This Potato has Hollow Heart.\n\nBrief Description:\nHollow Heart causes internal brown, hollow spots in tubers, making them unappealing and affecting quality.\n\nPossible Solutions for that disease:\n- Ensure even watering throughout growth\n- Avoid planting too close\n- Use uniform and slow-release fertilizers"
+    },
+    "Apple": {
+      "expected_output": "This Apple has Apple Scab.\n\nBrief Description:\nApple Scab is a fungal disease that causes dark, scabby lesions on leaves and fruit, reducing market quality.\n\nPossible Solutions for that disease:\n- Prune trees for better airflow\n- Use resistant apple varieties\n- Apply fungicides at key times in the growing season"
+    },
+    "Grape leaf": {
+      "expected_output": "This Grape leaf has Black Rot.\n\nBrief Description:\nBlack Rot is a fungal disease that causes dark brown lesions on leaves and shriveled, blackened fruit.\n\nPossible Solutions for that disease:\n- Remove infected leaves and fruit\n- Improve air circulation by pruning\n- Apply fungicides early in the season"
+    },
+    "Tea Leaf": {
+      "expected_output": "This Tea Leaf has Brown Blight.\n\nBrief Description:\nBrown Blight is a fungal disease that causes brown, circular lesions on leaves, leading to leaf drop.\n\nPossible Solutions for that disease:\n- Prune to open up the canopy\n- Ensure proper drainage\n- Apply copper-based fungicides"
+    },
+    "Rice Leaf": {
+      "expected_output": "This Rice Leaf has Bacterial Leaf Blight.\n\nBrief Description:\nThis is a serious bacterial disease that causes yellowing and drying of rice leaves, affecting yield.\n\nPossible Solutions for that disease:\n- Use resistant varieties\n- Avoid over-fertilization\n- Control water levels and avoid water stagnation"
+    },
+    "Pear": {
+      "expected_output": "This Pear has Pear Scab.\n\nBrief Description:\nPear Scab is similar to apple scab, causing dark lesions on fruit and leaves, affecting quality.\n\nPossible Solutions for that disease:\n- Plant resistant varieties\n- Remove and destroy fallen leaves\n- Use preventative fungicide sprays"
+    },
+    "Lettuce": {
+      "expected_output": "This Lettuce has Mosaic Virus.\n\nBrief Description:\nMosaic Virus causes mottled, distorted leaves and stunted growth in lettuce.\n\nPossible Solutions for that disease:\n- Use virus-free seeds\n- Control aphids using natural predators or neem oil\n- Remove infected plants promptly"
+    },
+    "Mango": {
+      "expected_output": "This Mango has Anthracnose.\n\nBrief Description:\nAnthracnose is a fungal disease that affects leaves, flowers, and fruit, leading to dark spots and fruit rot.\n\nPossible Solutions for that disease:\n- Prune trees regularly\n- Use copper-based fungicides\n- Harvest fruits before heavy rains"
+    },
+    "Corn leaf": {
+      "expected_output": "This Corn leaf has Rust Leaf.\n\nBrief Description:\nRust Leaf is a fungal disease that causes orange-brown pustules on leaves, affecting photosynthesis.\n\nPossible Solutions for that disease:\n- Grow resistant corn hybrids\n- Rotate crops annually\n- Apply fungicides if early symptoms appear"
+    }
+  }
+  

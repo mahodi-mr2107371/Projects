@@ -1,0 +1,28 @@
+@startuml
+start
+
+:User is Logged In;
+:Navigate to Chat Screen;
+
+if (Select Input Type?) then (Text)
+  :Enter Text Prompt;
+else if (Image)
+  :Upload Image;
+else if (Audio)
+  :Record/Upload Audio;
+else if (Video)
+  :Upload Video;
+endif
+
+:Send Input to Backend;
+:Process Input for Disease Diagnosis;
+:Retrieve Relevant Information;
+:Display Results on Chat Screen;
+
+if (View Previous Chats?) then (Yes)
+  :Retrieve Chat History;
+  :Display Previous Chats;
+endif
+
+stop
+@enduml

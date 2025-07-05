@@ -1,0 +1,312 @@
+2025-04-18 18:57:21.324747 - Image query received: What is this disease?...
+2025-04-18 19:31:31.339604 - Image query received: What is this disease?...
+2025-04-18 19:31:34.001161 - Success: response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "The *Tomato* has *Tomato Blight* disease.\n\n1.  *Tomato Blight* is a common disease that affects tomatoes and other plants, causing dark, water-soaked spots on leaves and stems, which can lead to defoliation and fruit rot.\n2.  Possible reasons for the disease include:\n    *   High humidity and rainfall\n    *   Poor air circulation\n    *   Infected seeds or transplants\n    *   Presence of the pathogen in the soil\n3.  Suggested solutions to mitigate or cure the disease:\n    *   Remove and destroy infected plant parts\n    *   Apply appropriate fungicides\n    *   Improve air circulation around plants\n    *   Use disease-free seeds and transplants\n    *   Practice crop rotation\n\nWhat caused this disease?\n\nHigh humidity and rainfall, poor air circulation, infected seeds or transplants, or the presence of the pathogen in the soil can cause this disease.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP"
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 378,
+        "candidates_token_count": 194,
+        "total_token_count": 572
+      }
+    }),
+)
+2025-04-18 19:31:35.321283 - Success: response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Hi! How can I help you?\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP"
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 169,
+        "candidates_token_count": 9,
+        "total_token_count": 178
+      }
+    }),
+)
+2025-04-18 19:34:15.648027 - Image query received: What is this disease?...
+2025-04-18 19:34:18.112147 - Success: response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "The *Tomato* has *Tomato Blight* disease.\n\n1.  *Tomato Blight* is a disease that affects tomatoes and other plants, causing dark, water-soaked spots on leaves and stems, which can lead to defoliation and fruit rot.\n2.  Possible reasons for the disease:\n    *   High humidity and moisture.\n    *   Poor air circulation.\n    *   Infected seeds or transplants.\n    *   Presence of the blight pathogen in the soil.\n3.  Suggested solutions to mitigate or cure the disease:\n    *   Remove and destroy infected leaves and plant parts.\n    *   Improve air circulation by pruning plants.\n    *   Apply copper-based fungicides or other appropriate treatments.\n    *   Use disease-free seeds and transplants.\n    *   Practice crop rotation.\n\nWhat caused this disease?\n*   High humidity and moisture.\n*   Poor air circulation.\n*   Infected seeds or transplants.\n*   Presence of the blight pathogen in the soil.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP"
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 378,
+        "candidates_token_count": 218,
+        "total_token_count": 596
+      }
+    }),
+)
+2025-04-18 19:35:44.366717 - Image query received: What is this disease?...
+2025-04-18 19:35:47.022000 - Success: response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Okay, I understand. Let's proceed.\n\n**Tomato Blight:** The *Tomato* has *Tomato Blight* disease.\n\n*Tomato Blight* is a common disease that affects tomatoes and other plants. It is caused by fungal pathogens, which can quickly spread and damage the plant's leaves, stems, and fruits.\n\nPossible reasons for the disease:\n*   High humidity and rainfall\n*   Poor air circulation\n*   Infected seeds or transplants\n*   Presence of other infected plants nearby\n*   Inadequate soil drainage\n\nSuggested solutions to mitigate or cure the disease:\n\n*   Remove and destroy infected leaves and stems.\n*   Apply a fungicide specifically labeled for *Tomato Blight*.\n*   Improve air circulation around the plants by pruning.\n*   Avoid overhead watering.\n*   Ensure good soil drainage.\n*   Mulch around the base of the plants to prevent soil splash.\n*   Use disease-free seeds and transplants.\n*   Rotate crops to prevent the buildup of pathogens in the soil.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP"
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 378,
+        "candidates_token_count": 219,
+        "total_token_count": 597
+      }
+    }),
+)
+2025-04-18 19:38:35.618068 - Image query received: What is this disease?...
+2025-04-18 19:38:37.424966 - Success: response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "The *Tomato* has *Tomato Blight* disease.\n\n1.  *Tomato Blight* is a disease that affects tomatoes and other plants, causing leaves to develop dark spots and eventually die.\n\n2.  Possible reasons for the disease:\n    *   High humidity\n    *   Poor air circulation\n    *   Infected seeds or transplants\n    *   Presence of the blight pathogen in the soil\n\n3.  Suggested solutions to mitigate or cure the disease:\n    *   Remove and destroy affected leaves\n    *   Apply a copper-based fungicide\n    *   Improve air circulation around plants\n    *   Use disease-free seeds and transplants\n    *   Practice crop rotation\n\nWhat caused this disease?\n*   High humidity, poor air circulation, infected seeds or transplants, or the presence of the blight pathogen in the soil can cause this disease.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP"
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 378,
+        "candidates_token_count": 182,
+        "total_token_count": 560
+      }
+    }),
+)
+2025-04-18 19:40:25.148126 - Image query received: What is this disease?...
+2025-04-18 19:40:27.573669 - Success: response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "The *Tomato* has *Tomato Blight* disease.\n\n1.  *Tomato Blight* is a disease that affects tomatoes and other plants, causing dark, water-soaked spots on leaves and stems, which can rapidly expand and lead to defoliation and fruit rot.\n2.  Possible reasons for the disease include:\n    *   High humidity and rainfall.\n    *   Poor air circulation.\n    *   Infected seeds or transplants.\n    *   Presence of the blight pathogen in the soil.\n3.  Suggested solutions to mitigate or cure the disease:\n    *   Remove and destroy infected plant parts.\n    *   Apply copper-based fungicides or other appropriate treatments.\n    *   Improve air circulation around plants.\n    *   Use disease-free seeds and transplants.\n    *   Practice crop rotation.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP"
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 378,
+        "candidates_token_count": 177,
+        "total_token_count": 555
+      }
+    }),
+)
+2025-04-18 19:42:34.079073 - Image query received: What is this disease?...
+2025-04-18 19:42:36.768863 - Success: response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "The *Tomato* has *Tomato Blight* disease.\n\n1.  *Tomato Blight* is a common disease that affects tomatoes and potatoes. It is caused by a fungus-like organism that spreads rapidly in wet weather.\n\n2.  Possible reasons for the disease:\n    *   Wet and humid conditions\n    *   Poor air circulation\n    *   Infected seeds or transplants\n    *   Presence of the pathogen in the soil\n\n3.  Suggested solutions to mitigate or cure the disease:\n    *   Remove and destroy infected leaves and fruits\n    *   Apply a copper-based fungicide\n    *   Improve air circulation by pruning plants\n    *   Avoid overhead watering\n    *   Use disease-free seeds and transplants\n    *   Rotate crops to prevent the pathogen from building up in the soil\n\nWhat caused this disease?\n*   Wet and humid conditions, poor air circulation, infected seeds or transplants, and the presence of the pathogen in the soil can cause this disease.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP"
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 378,
+        "candidates_token_count": 209,
+        "total_token_count": 587
+      }
+    }),
+)
+2025-04-18 19:44:03.697157 - Image query received: What is this disease?...
+2025-04-18 19:44:05.984826 - Success: response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "The *Tomato* has *Tomato Blight* disease.\n\n1.  *Tomato Blight* is a disease that affects tomatoes and other plants, causing dark, water-soaked spots on leaves and stems.\n2.  Possible reasons for the disease include:\n    *   High humidity\n    *   Poor air circulation\n    *   Infected seeds or transplants\n    *   Wet leaves\n3.  Suggested solutions to mitigate or cure the disease:\n    *   Remove and destroy infected leaves and stems\n    *   Apply a copper-based fungicide\n    *   Improve air circulation around plants\n    *   Water plants at the base to avoid wetting the leaves\n\nWhat caused this disease?\n\n*   High humidity and wet leaves can cause this disease.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP"
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 378,
+        "candidates_token_count": 160,
+        "total_token_count": 538
+      }
+    }),
+)
+2025-04-19 03:11:57.526578 - Image query received: What is this disease?...
+2025-04-19 03:12:00.645501 - Success: response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "The *Tomato* has *Tomato Blight* disease.\n\n1.  *Tomato Blight* is a common disease that affects tomatoes and other plants, causing dark spots on leaves and stems, which can lead to defoliation and fruit rot.\n2.  Possible reasons for the disease include:\n    *   High humidity and moisture\n    *   Poor air circulation\n    *   Infected seeds or transplants\n    *   Presence of the blight pathogen in the soil\n3.  Suggested solutions to mitigate or cure the disease:\n    *   Remove and destroy infected leaves and stems\n    *   Apply a copper-based fungicide\n    *   Improve air circulation around plants\n    *   Avoid overhead watering\n    *   Use disease-free seeds and transplants\n\nWhat caused this disease?\n* High humidity and moisture, poor air circulation, infected seeds or transplants, and the presence of the blight pathogen in the soil can cause this disease.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP"
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 378,
+        "candidates_token_count": 197,
+        "total_token_count": 575
+      }
+    }),
+)
+2025-04-19 03:13:04.718973 - Image query received: What is this disease?...
+2025-04-19 03:13:07.201264 - Success: response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Okay, I understand.\n\n**Tomato Blight**\n\nThis Tomato has Tomato Blight disease. Tomato blight is a disease that affects tomatoes and potatoes, causing leaves to develop dark, water-soaked spots that rapidly expand. It can quickly lead to the collapse and death of the plant.\n\nPossible reasons for the disease:\n*   High humidity and prolonged periods of wetness.\n*   Poor air circulation around plants.\n*   Infected seeds or transplants.\n*   Presence of the blight pathogen in the soil.\n\nSuggested solutions to mitigate or cure the disease:\n\n*   Remove and destroy infected leaves or plants.\n*   Improve air circulation by spacing plants adequately.\n*   Apply copper-based fungicides or other approved fungicides.\n*   Use disease-free seeds and transplants.\n*   Practice crop rotation to prevent pathogen buildup in the soil.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP"
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 378,
+        "candidates_token_count": 180,
+        "total_token_count": 558
+      }
+    }),
+)
+2025-04-19 03:21:24.289445 - Image query received: What is this disease?...
+2025-04-19 03:21:27.724089 - Success: response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "The *Tomato* has *Tomato Blight* disease.\n\n*Tomato Blight* is a common disease that affects tomatoes and potatoes. It is caused by a fungus that spreads quickly in wet weather, causing dark spots on leaves and stems, eventually leading to the plant's death.\n\nPossible reasons for the disease:\n1.  **Wet and humid conditions:** Blight thrives in environments with high humidity and frequent rainfall.\n2.  **Poor air circulation:** Densely planted tomatoes with limited airflow are more susceptible.\n3.  **Infected seeds or transplants:** Starting with infected plant material can introduce the disease.\n4.  **Presence of the pathogen:** The blight pathogen can survive in soil or plant debris from previous seasons.\n5.  **Lack of crop rotation:** Planting tomatoes in the same location year after year can increase the risk.\n\nSuggested solutions to mitigate or cure the disease:\n1.  **Remove and destroy affected foliage:** Prune infected leaves and stems to prevent the spread of the fungus.\n2.  **Apply fungicides:** Use copper-based or other approved fungicides, following the instructions carefully.\n3.  **Improve air circulation:** Space tomato plants adequately and prune to allow for better airflow.\n4.  **Water properly:** Avoid overhead watering, which can create a moist environment favorable for blight. Water at the base of the plant.\n5.  **Use disease-free seeds and transplants:** Purchase seeds and transplants from reputable sources.\n6.  **Practice crop rotation:** Avoid planting tomatoes in the same location for consecutive years.\n7.  **Clean up plant debris:** Remove and destroy any fallen leaves or stems to prevent the fungus from overwintering in the soil.\n\nWhat caused this disease?\nSee possible reasons for the disease above.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP"
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 378,
+        "candidates_token_count": 373,
+        "total_token_count": 751
+      }
+    }),
+)
+2025-04-20 20:59:55.820926 - Image query received: What is this disease?...
+2025-04-20 20:59:58.584314 - Success: response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "The *Tomato* has *Tomato Blight* disease.\n\n1.  *Tomato Blight* is a common disease that affects tomatoes and other plants, causing dark spots on leaves and stems, which can lead to defoliation and fruit rot.\n2.  Possible reasons for the disease include:\n    *   High humidity and moisture\n    *   Poor air circulation\n    *   Infected seeds or transplants\n    *   Presence of the blight pathogen in the soil\n3.  Suggested solutions to mitigate or cure the disease:\n    *   Remove and destroy infected leaves and plant parts\n    *   Apply copper-based fungicides or other appropriate treatments\n    *   Improve air circulation around plants\n    *   Avoid overhead watering\n    *   Use disease-free seeds and transplants\n    *   Practice crop rotation\n\nWhat caused this disease?\n* High humidity and moisture, poor air circulation, infected seeds or transplants, and the presence of the blight pathogen in the soil can cause this disease.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP"
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 378,
+        "candidates_token_count": 208,
+        "total_token_count": 586
+      }
+    }),
+)

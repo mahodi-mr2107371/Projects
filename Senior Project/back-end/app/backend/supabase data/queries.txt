@@ -1,0 +1,102 @@
+-- CREATE INDEX idx_column_name ON embeddings("imageEmbedding");
+
+-- SELECT * FROM pg_indexes WHERE indexname = 'idx_column_name';
+-- DROP INDEX IF EXISTS idx_column_name;
+
+-- CREATE INDEX ON embeddings USING ivfflat ("imageEmbedding" vector_l2_ops) WITH (lists = 100);
+
+-- ALTER TABLE public.embeddings
+-- ALTER COLUMN "imageEmbedding" TYPE public.vector(512);
+
+DROP FUNCTION IF EXISTS match_images(vector(1536), int);
+
+-- CREATE FUNCTION match_images(query_embedding vector(512), match_count int)
+-- RETURNS TABLE(label TEXT, plantName TEXT, similarity FLOAT)
+-- LANGUAGE SQL STABLE
+-- AS $$
+--   SELECT embeddings.label, embeddings."plantName", 
+--          1 - (embeddings."imageEmbedding" <=> query_embedding) AS similarity
+--   FROM embeddings
+--   ORDER BY embeddings."imageEmbedding" <=> query_embedding
+--   LIMIT match_count;
+-- $$;
+
+CREATE FUNCTION match_images(query_embedding vector(512), match_count int)
+RETURNS TABLE(label TEXT, plantName TEXT, similarity FLOAT)
+LANGUAGE SQL STABLE
+AS $$
+  SELECT embeddings_duplicate.label, embeddings_duplicate."plantName", 
+         1 - (embeddings_duplicate."imageEmbedding" <=> query_embedding) AS similarity
+  FROM embeddings_duplicate
+  ORDER BY embeddings_duplicate."imageEmbedding" <=> query_embedding
+  LIMIT match_count;
+$$;
+
+
+
+----------------------------------------------------------------------------------------------------------
+
+Row 1-17
+SELECT * FROM embeddings WHERE "embeddingId" BETWEEN 232 AND 18131;
+
+Row 18-34
+SELECT * FROM embeddings WHERE "embeddingId" BETWEEN 18132 AND 35131;
+
+Row 35-51
+SELECT * FROM embeddings WHERE "embeddingId" BETWEEN 35132 AND 52131;
+
+Row 52-68
+SELECT * FROM embeddings WHERE "embeddingId" BETWEEN 52132 AND 69131;
+
+Row 69-85
+SELECT * FROM embeddings WHERE "embeddingId" BETWEEN 69132 AND 86131;
+
+Row 86-102
+SELECT * FROM embeddings WHERE "embeddingId" BETWEEN 86132 AND 103131;
+
+Row 103-119
+SELECT * FROM embeddings WHERE "embeddingId" BETWEEN 103132 AND 120131;
+
+Row 120-136
+SELECT * FROM embeddings WHERE "embeddingId" BETWEEN 120132 AND 137131;
+
+Row 137-153
+SELECT * FROM embeddings WHERE "embeddingId" BETWEEN 137132 AND 154131;
+
+Row 153-160
+SELECT * FROM embeddings WHERE "embeddingId" BETWEEN 154132 AND 160800;
+
+----------------------------------------------------------------------------------
+
+To fetch randomly 700 images for those who have more than 700/800 images
+WITH filtered AS (
+  SELECT *,
+         ROW_NUMBER() OVER (PARTITION BY label, "plantName" ORDER BY RANDOM()) AS rn,
+         COUNT(*) OVER (PARTITION BY label, "plantName") AS cnt
+  FROM embeddings
+)
+SELECT *
+FROM filtered
+WHERE cnt > 800 AND rn <= 700;
+
+
+To fetch  <700 images:
+
+WITH counts AS (
+  SELECT label, "plantName", COUNT(*) AS cnt
+  FROM embeddings
+  GROUP BY label, "plantName"
+)
+SELECT e.*
+FROM embeddings e
+JOIN counts c ON e.label = c.label AND e."plantName" = c."plantName"
+WHERE c.cnt < 700
+  AND e.label NOT IN ('Cercospora leaf spot', 'potassium deficiency')  -- exclude multiple labels
+  AND e."plantName" != 'any_plant'
+;
+
+--------------------------------------------------
+
+Counting:
+
+

@@ -1,0 +1,66 @@
+@startgantt
+Project starts 2025-01-21
+
+
+' Define milestones
+[Sprint 1] happens 2025-01-21
+
+' Sprint 1
+[Backlog & Sprint Planning] on {All} starts 2025-01-21 and ends 2025-01-27
+[Collect Image Data] on {Basil Saeed} starts 2025-01-28 and ends 2025-02-10
+[Image Upload UI] on {Mahodi Hasan Sabab} starts 2025-01-28 and ends 2025-02-03
+[Backend Image Handling] on {Mahodi Hasan Sabab} starts 2025-01-28 and ends 2025-02-03
+[Create Database] on {Mohammad Hassam Khaili} starts 2025-01-28 and ends 2025-02-03
+[Backend for Image Classification] on {Mahodi Hasan Sabab} starts 2025-02-04 and ends 2025-02-10
+[Frontend Integration] on {Mahodi Hasan Sabab} starts 2025-02-04 and ends 2025-02-10
+[Develop Query Mechanism] on {Mohammad Hassam Khaili} starts 2025-02-04 and ends 2025-02-10
+[Evaluate any Model] on {Omer Adil Khan} starts 2025-02-04 and ends 2025-02-24
+[Prompt Engineering] on {Mahodi Hasan Sabab} starts 2025-02-11 and ends 2025-02-17
+[Choose Embedder] on {Mohammad Hassam Khaili} starts 2025-02-11 and ends 2025-02-17
+[Pre-process Images] on {Basil Saeed} starts 2025-02-18 and ends 2025-03-03
+[UI to present step by step Guides] on {Mahodi Hasan Sabab} starts 2025-02-18 and ends 2025-02-24
+[Test Instructions Clarity] on {Mahodi Hasan Sabab} starts 2025-02-18 and ends 2025-02-24
+
+' Sprint 2
+[Sprint 2] happens 2025-02-25
+[Sprint Planning 2] on {All} starts 2025-02-25 and ends 2025-03-03
+[Verify Cyclomatic Complexity] on {Basil Saeed} starts 2025-03-04 and ends 2025-03-10
+[User Interaction table in DB] on {Mahodi Hasan Sabab} starts 2025-03-04 and ends 2025-03-10
+[Image + Text Upload] on {Mohammad Hassam Khaili} starts 2025-03-04 and ends 2025-03-10
+[DeepEval Benchmarks] on {Omer Adil Khan} starts 2025-03-04 and ends 2025-03-24
+[Rainbow Sheet Setup] on {Basil Saeed} starts 2025-03-11 and ends 2025-03-17
+[Login/Signup Page] on {Mahodi Hasan Sabab} starts 2025-03-11 and ends 2025-03-17
+[Combined API Input] on {Mohammad Hassam Khaili} starts 2025-03-11 and ends 2025-03-17
+[Async Queue Python] on {Basil Saeed} starts 2025-03-18 and ends 2025-03-24
+[Save & Retrieve History] on {Mahodi Hasan Sabab} starts 2025-03-18 and ends 2025-03-24
+[Implement List for memory] on {Mohammad Hassam Khaili} starts 2025-03-18 and ends 2025-03-24
+
+' Sprint 3
+[Scalability Test] on {Basil Saeed} starts 2025-03-25 and ends 2025-03-31
+[History Page UI] on {Mahodi Hasan Sabab} starts 2025-03-25 and ends 2025-03-31
+[Adjust AI Responses] on {Mohammad Hassam Khaili} starts 2025-03-25 and ends 2025-03-31
+[Performance Requirements] on {Basil Saeed} starts 2025-04-08 and ends 2025-04-14
+[Integration Testing (Flutter)] on {Mahodi Hasan Sabab} starts 2025-04-08 and ends 2025-04-14
+[Test API] on {Mohammad Hassam Khaili} starts 2025-04-08 and ends 2025-04-14
+[Start Report] on {Omer Adil Khan} starts 2025-04-08 and ends 2025-04-21
+[Usability Test] on {Basil Saeed} starts 2025-04-15 and ends 2025-04-21
+[Finalize App Design] on {Mahodi Hasan Sabab} starts 2025-04-15 and ends 2025-04-21
+[Unit Testing] on {Mohammad Hassam Khaili} starts 2025-04-15 and ends 2025-04-21
+[Acceptance Testing] on {Omer Adil Khan} starts 2025-04-15 and ends 2025-04-21
+[Pitch & Demo Videos] on {Basil Saeed, Mohammad Hassam Khaili} starts 2025-04-22 and ends 2025-04-26
+[PPT Presentation] on {Mahodi Hasan Sabab} starts 2025-04-22 and ends 2025-04-26
+[Create Poster] on {Omer Adil Khan} starts 2025-04-22 and ends 2025-04-26
+
+' Dependencies
+[Backend for Image Classification] starts at [Backend Image Handling]'s end
+[Frontend Integration] starts at [Backend Image Handling]'s end
+[Develop Query Mechanism] starts at [Create Database]'s end
+[Pre-process Images] starts at [Collect Image Data]'s end
+[Test Instructions Clarity] starts at [UI to present step by step Guides]'s end
+[Verify Cyclomatic Complexity] starts at [Backend Image Handling]'s end
+[User Interaction table in DB] starts at [Create Database]'s end
+[Implement List for memory] starts at [Save & Retrieve History]'s end
+[Scalability Test] starts at [Async Queue Python]'s end
+[Adjust AI Responses] starts at [Implement List for memory]'s end
+
+@endgantt

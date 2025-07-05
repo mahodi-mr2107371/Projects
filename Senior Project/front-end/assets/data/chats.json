@@ -1,0 +1,10 @@
+[
+    {
+        "senderId":"you",
+        "msg":"Hi"
+    },
+    {
+        "senderId":"model",
+        "msg":"Hello"
+    }
+]

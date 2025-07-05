@@ -1,0 +1,98 @@
+@startuml
+class DataExtractor {
+  - _data_dict: dict
+  - dir_path: str
+  + __init__(dir_path: str)
+  - _extract_data_to_dict(): void
+  + get_data_dict(): dict
+  + display_extracted_data(): void
+}
+
+class DataRetriever {
+  - supabase: Client
+  - embedder: Embedder
+  + __init__(supabase: Client, embedder: Embedder)
+  + retrieve_data_with_image(image: Image, k: int): dict
+}
+
+class DataStorageManager {
+  - url: str
+  - key: str
+  + __init__()
+  + store_embedding(labels: str, text_embeddings: list, image_embeddings: tensor, plantName: str): Response
+}
+
+class Embedder {
+  - model: SentenceTransformer
+  + __init__(model_name: str = 'clip-ViT-B-32')
+  + fetch_and_transform_image(url: str): Image
+  + embed_text(texts: list): tensor
+  + embed_image(image_urls: list): tensor
+  + embed_single_image(image_url: str): tensor
+}
+
+class ModelConfigurator {
+  - api_key: str
+  - model_name: str
+  - lock: asyncio.Lock
+  - recent_calls: list
+  - max_requests_per_minute: int
+  - current_backoff: int
+  - in_backoff_until: float
+  + __init__()
+  + configure_genai(): void
+  + get_model_name(): str
+  + should_throttle(): (bool, float)
+  + handle_error(error: Exception): float
+  + generateResponse(label: str, query: str, plant: str, history: list): str
+}
+note right of ModelConfigurator::generateResponse
+Async method to generate a response
+with Gemini API and backoff handling
+end note
+
+note right of ModelConfigurator::should_throttle
+Implements sliding window rate limiting
+end note
+
+note right of ModelConfigurator::handle_error
+Handles rate-limit & other errors
+end note
+
+class RequestManager {
+  - model_config: ModelConfigurator
+  - request_queue: asyncio.Queue
+  - processing: bool
+  - max_concurrent_requests: int
+  + __init__()
+  + add_request(label: str, query: str, plant: str, history: list): Future
+  + process_queue(): void
+  - _process_single_request(request: dict): void
+}
+
+class RetrievalUtility {
+  + {static} retrieveWithImage(image: Image, query: str, history: list): str
+  + {static} retrieveWithTextOnly(query: str, history: list): str
+  + {static} getImageFromBase64(imageBase64: str): Image
+}
+
+class StorageUtility {
+  + {static} process_and_store_data(): void
+}
+
+' Global function
+note "Global functions:\nasync def generate_response(label, query, plant, history)\ndef retrieveWithImage(query_image, input)\ndef retrieveWithTextOnly(query)" as GlobalFunc
+
+' Relationships with composition and multiplicities
+DataRetriever "1" *-- "1" Embedder : has a
+RequestManager "1" *-- "1" ModelConfigurator : has a
+RetrievalUtility "1" --> "1" DataRetriever : uses
+RetrievalUtility "1" --> "1" Embedder : uses
+RetrievalUtility "1" --> "1" RequestManager : uses via generate_response
+StorageUtility "1" --> "1" DataExtractor : uses
+StorageUtility "1" -u-> "1" Embedder : uses
+StorageUtility "1" --> "1" DataStorageManager : uses
+
+hide RetrievalUtility attributes
+hide StorageUtility attributes
+@enduml
